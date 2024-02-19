@@ -72,21 +72,38 @@
 html {
   scroll-behavior: smooth;
 }
+
 .hex.generic{
     position: relative;
     width: 94.68px;
     height: 164px;
-    margin: 40px auto;
+    margin:2.5rem auto;
     line-height: 36px;
     font-family: var(--tertiary-font);
     font-size: 1rem;
-   
     color: white;
-    text-align: center;
+    
     padding-top:3.75rem;
-   
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    border: 2px solid red;
+    overflow: visible;
+}
 
-  }
+.over {
+position: relative;
+text-align: center;
+font-family: var(--tertiary-font);
+font-size: 1rem;
+z-index:10;
+border: 2px solid blue;
+
+}
+
+.hex.generic:hover{
+    transform: scale(120%);
+    
+}
 
 /*definition de la couleur des hexagones*/
 .hex.generic.yellow {
@@ -106,6 +123,7 @@ html {
 .hex.generic.black{
     background-color: var(--black-color);
     color: var(--primary-color);
+   
 }
 
 .hex.generic:before,
@@ -116,12 +134,13 @@ html {
     width: 0;
     border-top: 82px solid transparent;
     border-bottom: 82px solid transparent;
-    
+   
   }
 
 .hex.generic.yellow:before {
     right: 100%;
     border-right: 47.34px solid var(--primary-color);
+    z-index: 1;
 }
 .hex.generic.yellow:after {
     left: 100%;
@@ -195,10 +214,6 @@ html {
     justify-content: center;
     align-items: center;
 }
- 
-.down {
-    margin-bottom : -50px;
-}
 
-  
+
   
