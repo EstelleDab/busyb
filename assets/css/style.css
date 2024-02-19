@@ -62,7 +62,7 @@
   
     --primary-font: 'Sniglet', Arial, sans-serif;
     --secondary-font: 'Poppins', Arial, sans-serif;
-    --tertiary-font: 'Nonchalance', sans-serif;
+    --tertiary-font: 'Nonchalance Bold', sans-serif;
                                                 
   }
 
@@ -72,3 +72,133 @@
 html {
   scroll-behavior: smooth;
 }
+.hex.generic{
+    position: relative;
+    width: 94.68px;
+    height: 164px;
+    margin: 40px auto;
+    line-height: 36px;
+    font-family: var(--tertiary-font);
+    font-size: 1rem;
+   
+    color: white;
+    text-align: center;
+    padding-top:3.75rem;
+   
+
+  }
+
+/*definition de la couleur des hexagones*/
+.hex.generic.yellow {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+    
+}
+.hex.generic.blue {
+
+    background-color: var(--secondary-color);
+    color: var(--black-color);
+}
+.hex.generic.pink {
+    background-color: var(--tertiary-color);
+}
+
+.hex.generic.black{
+    background-color: var(--black-color);
+    color: var(--primary-color);
+}
+
+.hex.generic:before,
+.hex.generic:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-top: 82px solid transparent;
+    border-bottom: 82px solid transparent;
+    
+  }
+
+.hex.generic.yellow:before {
+    right: 100%;
+    border-right: 47.34px solid var(--primary-color);
+}
+.hex.generic.yellow:after {
+    left: 100%;
+    width: 0;
+    border-left: 47.34px solid var(--primary-color);
+}
+ 
+.hex.generic.blue:before {
+    right: 100%;
+    border-right: 47.34px solid var(--secondary-color);
+}
+.hex.generic.blue:after {
+    left: 100%;
+    width: 0;
+    border-left: 47.34px solid var(--secondary-color);
+}
+
+.hex.generic.pink:before {
+    right: 100%;
+    border-right: 47.34px solid var(--tertiary-color);
+}
+.hex.generic.pink:after {
+    left: 100%;
+    width: 0;
+    border-left: 47.34px solid var(--tertiary-color);
+}
+
+.hex.generic.black:before {
+    right: 100%;
+    border-right: 47.34px solid var(--black-color);
+}
+
+.hex.generic.black:after {
+    left: 100%;
+    width: 0;
+    border-left: 47.34px solid var(--black-color);
+}
+
+
+.hex.generic.tiled {
+    float: left;
+    margin-bottom: -2.25rem;
+    margin-right:3.25rem;
+}
+
+.hex-row.tiled {
+    clear: left;
+}
+
+.hex-row.tiled.top{
+    display: flex; 
+    flex-direction: column;
+}
+  
+
+.hex-row.tiled.mid{
+    display: flex; 
+    flex-direction: column;
+}
+  
+.hex-row.tiled.bottom{
+    display: flex; 
+    flex-direction: column;
+}
+
+.hex-container {
+    display: flex;    
+    flex-direction: row;
+    height: 100vh;
+    border: 2px solid red;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.down {
+    margin-bottom : -50px;
+}
+
+  
+  
