@@ -1,9 +1,9 @@
-*, 
+*,
 *:after,
 *:before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -11,14 +11,14 @@
     font-style: normal;
     font-weight: normal;
     src: local('Consola Mono Book'), url('ConsolaMono-Book.woff') format('woff');
-    }
-    
+}
+
 @font-face {
     font-family: 'Consola Mono Bold';
     font-style: normal;
     font-weight: normal;
     src: local('Consola Mono Bold'), url('ConsolaMono-Bold.woff') format('woff');
-    }
+}
 
 @font-face {
     font-family: 'Nonchalance Regular';
@@ -26,12 +26,14 @@
     font-weight: normal;
     src: local('Nonchalance Regular'), url('Nonchalance Regular.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Nonchalance Medium';
     font-style: normal;
     font-weight: normal;
     src: local('Nonchalance Medium'), url('Nonchalance Medium.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Nonchalance Bold';
     font-style: normal;
@@ -52,23 +54,52 @@
     font-weight: normal;
     src: local('Poppins Regular'), url('Poppins-Regular.woff') format('woff');
 }
-    
+
 :root {
     --primary-color: #FFBB1C;
     --secondary-color: #00ADB5;
     --tertiary-color: #EF566A;
     --black-color: #2B2B2B;
     --white-color: #fafafa;
-  
+
     --primary-font: 'Sniglet', Arial, sans-serif;
     --secondary-font: 'Poppins', Arial, sans-serif;
     --tertiary-font: 'Nonchalance', sans-serif;
-                                                
-  }
+
+}
 
 
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.parallax {
+    height: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    background-image: url("/assets/images/bees1.jpg");
+}
+
+.parallax2 {
+    background-image: url("/assets/images/bees2.jpg");
+}
+
+.parallax3 {
+    background-image: url("/assets/images/bees3.jpg");
+}
+
+.parallax4 {
+    background-image: url("/assets/images/bees4.jpg");
 }
