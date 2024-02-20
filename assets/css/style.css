@@ -81,29 +81,26 @@ html {
     line-height: 36px;
     font-family: var(--tertiary-font);
     font-size: 1rem;
-    color: white;
-    
     padding-top:3.75rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
-    border: 2px solid red;
     overflow: visible;
 }
 
+/*positionnement du texte des liens au premier plan*/
 .over {
 position: relative;
 text-align: center;
 font-family: var(--tertiary-font);
 font-size: 1rem;
 z-index:10;
-border: 2px solid blue;
-
 }
 
 .hex.generic:hover{
     transform: scale(120%);
-    
+    z-index:99;
 }
+
 
 /*definition de la couleur des hexagones*/
 .hex.generic.yellow {
@@ -180,28 +177,28 @@ border: 2px solid blue;
 }
 
 
-.hex.generic.tiled {
+.hex.generic{
     float: left;
     margin-bottom: -2.25rem;
     margin-right:3.25rem;
 }
 
-.hex-row.tiled {
+.hex-row{
     clear: left;
 }
 
-.hex-row.tiled.top{
+.hex-row.top{
     display: flex; 
     flex-direction: column;
 }
   
 
-.hex-row.tiled.mid{
+.hex-row.mid{
     display: flex; 
     flex-direction: column;
 }
   
-.hex-row.tiled.bottom{
+.hex-row.bottom{
     display: flex; 
     flex-direction: column;
 }
@@ -215,5 +212,3 @@ border: 2px solid blue;
     align-items: center;
 }
 
-
-  
