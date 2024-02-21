@@ -64,23 +64,18 @@
 
     --primary-font: 'Sniglet', Arial, sans-serif;
     --secondary-font: 'Poppins', Arial, sans-serif;
-<<<<<<< HEAD
     --tertiary-font: 'Nonchalance Bold', sans-serif;
-                                                
-  }
-=======
-    --tertiary-font: 'Nonchalance', sans-serif;
 
 }
->>>>>>> main
 
 
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
-<<<<<<< HEAD
   scroll-behavior: smooth;
+  height: 100%;
 }
+
 
 .hex.generic{
     position: relative;
@@ -97,12 +92,14 @@ html {
 }
 
 /*positionnement du texte des liens au premier plan*/
-.over {
+span.over {
 position: relative;
-text-align: center;
+margin:auto;
+
 font-family: var(--tertiary-font);
 font-size: 1rem;
 z-index:10;
+border: 2px solid blue;
 }
 
 .hex.generic:hover{
@@ -221,10 +218,7 @@ z-index:10;
     align-items: center;
 }
 
-=======
-    scroll-behavior: smooth;
-    height: 100%;
-}
+ 
 
 body {
     height: 100%;
@@ -253,4 +247,3 @@ body {
 .parallax4 {
     background-image: url("/assets/images/bees4.jpg");
 }
->>>>>>> main
