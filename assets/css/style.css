@@ -99,11 +99,12 @@ margin:auto;
 font-family: var(--tertiary-font);
 font-size: 1rem;
 z-index:10;
-border: 2px solid blue;
+
 }
 
 .hex.generic:hover{
     transform: scale(120%);
+    transition: all 1s ease-out;
     z-index:99;
 }
 
