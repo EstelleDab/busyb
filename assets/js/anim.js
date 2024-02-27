@@ -5,7 +5,6 @@ $(document).ready(function () {
   
         let mylink= e.target.querySelector("a") || e.target; 
         let myurl=mylink.getAttribute("href");
-        console.log(mylink);
         let myHexa=e.target.parentNode.getAttribute('id') || e.target.id || e.target.parentNode.parentNode.getAttribute('id') //on repère le 'li'cliqué
 
 $("li").toggleClass('fade');
