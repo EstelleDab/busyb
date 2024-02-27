@@ -120,7 +120,8 @@ h1 {
    width: 94.68px;
     height: 164px;
     margin-bottom:0.5rem;
-    margin-left:1.75rem;
+  
+    border: 2px solid blue;
     font-family: var(--tertiary-font);
     font-size: 1rem;
     padding-top:3.75rem;
@@ -138,7 +139,6 @@ position: absolute;
 font-family: var(--tertiary-font);
 font-size: 1rem;
 z-index:10;
-border:2px solid blue;
 margin-block-end: 5rem;
 
 }
@@ -232,11 +232,14 @@ margin-block-end: 5rem;
 .hex-row{
     border: 3px solid green;
     width:100%;
+    padding-left:1rem;
+    
 }
 
 .hex-row.top{
     display: flex; 
     flex-direction: column;
+    align-content: center;
 }
   
 .hex-row.mid{
@@ -249,6 +252,7 @@ margin-block-end: 5rem;
 .hex-row.bottom{
     display: flex; 
     flex-direction: column;
+  
 }
 
 .parallax {
