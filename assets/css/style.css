@@ -75,6 +75,7 @@ html {
 }
 
 body {
+    
     height: 100%;
     animation: fadein 3s; 
     
@@ -102,11 +103,18 @@ h1 {
 }
 
 /*le menu hexagone*/
+
+#hexalist {
+    display: flex;    
+    flex-direction: row;
+    margin: auto;
+    border: 3px solid green;
+    justify-content: center;
+}
 .hex-container {
     display: flex;    
     flex-direction: row;
-    width:30rem;
-    margin:auto;
+   width: 30%;
     height:100vh;
     border: 2px solid red;
     justify-content: center;
@@ -114,14 +122,20 @@ h1 {
 
     
 }
+.hex-row{
+    display:flex;
+    flex-direction: column;
+    border: 3px solid green;
+    padding: 1.25rem;
+    justify-content: center;
+}
 
-.hex.generic{
+.hex{
     position: relative;
-   width: 94.68px;
+    width: 94.68px;
     height: 164px;
     margin-bottom:0.5rem;
-  
-    border: 2px solid blue;
+    border: 2px solid yellow;
     font-family: var(--tertiary-font);
     font-size: 1rem;
     padding-top:3.75rem;
@@ -140,12 +154,20 @@ font-family: var(--tertiary-font);
 font-size: 1rem;
 z-index:10;
 margin-block-end: 5rem;
+border: 2px solid red;
 
+width:200%;
+margin:auto;
 }
 
+a {
+border: 2px solid blue;
+margin: auto;
+
+}
 /*comportement au survol*/ 
 
-.hex.generic:hover{
+.hex:hover{
     transform: scale(120%);
     transition: all 1s ease-out;
     z-index:99;
@@ -153,28 +175,28 @@ margin-block-end: 5rem;
 
 
 /*definition de la couleur des hexagones*/
-.hex.generic.yellow {
+.hex.yellow {
     background-color: var(--primary-color);
     color: var(--black-color);
     
 }
 
-.hex.generic.blue {
+.hex.blue {
     background-color: var(--secondary-color);
     color: var(--black-color);
 }
 
-.hex.generic.pink {
+.hex.pink {
     background-color: var(--tertiary-color);
 }
 
-.hex.generic.black{
+.hex.black{
     background-color: var(--black-color);
     color: var(--primary-color);
 }
 
-.hex.generic:before,
-.hex.generic:after {
+.hex:before,
+.hex:after {
     content: "";
     position: absolute;
     top: 0;
@@ -183,77 +205,53 @@ margin-block-end: 5rem;
     border-bottom: 82px solid transparent;
   }
 
-.hex.generic.yellow:before {
+.hex.yellow:before {
     right: 100%;
     border-right: 47.34px solid var(--primary-color);
     z-index: 1;
 }
 
-.hex.generic.yellow:after {
+.hex.yellow:after {
     left: 100%;
     width: 0;
     border-left: 47.34px solid var(--primary-color);
 }
  
-.hex.generic.blue:before {
+.hex.blue:before {
     right: 100%;
     border-right: 47.34px solid var(--secondary-color);
 }
 
-.hex.generic.blue:after {
+.hex.blue:after {
     left: 100%;
     width: 0;
     border-left: 47.34px solid var(--secondary-color);
 }
 
-.hex.generic.pink:before {
+.hex.pink:before {
     right: 100%;
     border-right: 47.34px solid var(--tertiary-color);
 }
 
-.hex.generic.pink:after {
+.hex.pink:after {
     left: 100%;
     width: 0;
     border-left: 47.34px solid var(--tertiary-color);
 }
 
-.hex.generic.black:before {
+.hex.black:before {
     right: 100%;
-    border-right: 47.34px solid var(--black-color);
+    border-right: 47.34px solid white;
 }
 
-.hex.generic.black:after {
+.hex.black:after {
     left: 100%;
     width: 0;
-    border-left: 47.34px solid var(--black-color);
+    border-left: 47.34px solid  white;;
 }
 
 
-.hex-row{
-    border: 3px solid green;
-    width:100%;
-    padding-left:1rem;
-    
-}
 
-.hex-row.top{
-    display: flex; 
-    flex-direction: column;
-    align-content: center;
-}
-  
-.hex-row.mid{
-    display: flex; 
-    flex-direction: column;
-  
-    
-}
-  
-.hex-row.bottom{
-    display: flex; 
-    flex-direction: column;
-  
-}
 
 .parallax {
     height: 50%;
