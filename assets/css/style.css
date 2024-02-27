@@ -104,15 +104,6 @@ h1 {
 
 /*le menu hexagone*/
 
-#hexalist {
-    display: flex;    
-    flex-direction: row;
-    width: 20%;
-    margin: auto;
-    border: 3px solid green;
-    justify-content: center;
-}
-
 .hex-container {
     display: flex;    
     flex-direction: row;
@@ -167,7 +158,6 @@ span.link {
 .hex-nav:hover{
     transform: scale(120%);
     transition: all 1s ease-out;
-    
     z-index:99;
 }
 
