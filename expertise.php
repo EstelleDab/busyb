@@ -2,8 +2,7 @@
 <html>
 <head>
     <title>Page expertise</title>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet">
+    <?php include 'inc.head.php';?>
 </head>
 <body>
     <h1>Notre expertise</h1>

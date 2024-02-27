@@ -1,13 +1,9 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Busy B Agence Digitale</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="assets/logo.png"/>
-    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link href="assets/css/style.css" rel="stylesheet">
-</head>
+	<head>
+		<title>Busy B Agence Digitale</title>
+		<?php include 'inc.head.php';?>
+	</head>
 <body>
 	<nav>
 		<ul id="hexalist">
@@ -17,12 +13,12 @@
 					<li id="hexa1" class="hex generic yellow"><span class="link"><a >contact</a></span></li>
 				</div>
 				<div class="hex-row mid">
-					<li id="hexa2" class="hex generic yellow"><span class="link"><a href="expertise.html">notre expertise</a></span></li>
+					<li id="hexa2" class="hex generic yellow"><span class="link"><a href="expertise.php">notre expertise</a></span></li>
 					<li id="hexa3" class="hex generic blue"></li>
 		  			<li id="hexa4" class="hex generic black"><span class="link"><a >travaillons ensemble</a></span></li>
 				</div>
 				<div class="hex-row bottom">
-					<li id="hexa5"  class="hex generic black "><span class="link"><a  href="equipe.html">busy b</a></span></li>
+					<li id="hexa5"  class="hex generic black "><span class="link"><a  href="equipe.php">busy b</a></span></li>
 					<li id="hexa6" class="hex generic blue "><span class="link"><a >réalisations</a></span></li>
 		 	 	</div> 
 	  		</div>

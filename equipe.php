@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Page équipe</title>
-    <link href="assets/css/style.css" rel="stylesheet">
+    <?php include 'inc.head.php';?>
 </head>
 <body>
     <h1>Notre equipe</h1>

@@ -61,7 +61,7 @@
     --tertiary-color: #EF566A;
     --black-color: #2B2B2B;
     --white-color: #fafafa;
-    --primary-font: 'Sniglet', Arial, sans-serif;
+    --primary-font: 'ConsolaMono-Bold', Arial, sans-serif;
     --secondary-font: 'Poppins', Arial, sans-serif;
     --tertiary-font: 'Nonchalance Bold', sans-serif;
 }
@@ -76,22 +76,30 @@ html {
 
 body {
     height: 100%;
-    animation: fadein 4s; 
+    animation: fadein 3s; 
     
 }
     @keyframes fadein {
         0% {
             opacity:0;
         }
-        50%{
+       25%{
+            opacity:0.35;
+        }
+       50% {
             opacity:0.5;
+        }
+        75% {
+            opacity:0.75;
         }
         100% {
             opacity:1;
         }
     }
     
-
+h1 {
+    font-family: var(--tertiary-font);
+}
 
 /*le menu hexagone*/
 .hex-container {
@@ -106,11 +114,7 @@ body {
 
     
 }
-.hex.generic{
 
-    
-    
-}
 .hex.generic{
     position: relative;
    width: 94.68px;
@@ -225,7 +229,6 @@ margin-block-end: 5rem;
 }
 
 
-
 .hex-row{
     border: 3px solid green;
     width:100%;
@@ -246,9 +249,6 @@ margin-block-end: 5rem;
 .hex-row.bottom{
     display: flex; 
     flex-direction: column;
- 
-   
-   
 }
 
 .parallax {
