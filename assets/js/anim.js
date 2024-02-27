@@ -1,6 +1,6 @@
 $(document).ready(function () { 
     
-    $("#hexalist").on("click", function (e) {
+    $(".hex-nav").on("click", function (e) {
     e.preventDefault(); //on empêche le chargement du lien 
   
         let mylink= e.target.querySelector("a") || e.target; 
