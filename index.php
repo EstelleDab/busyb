@@ -5,6 +5,7 @@
 		<?php include 'inc.head.php';?>
 	</head>
 <body>
+	<h1>Busy B</h1>
 	<nav>
 		<ul id="hexalist">
 			<div class="hex-container">
@@ -24,6 +25,7 @@
 	  		</div>
 		</ul>
 	</nav>
+	<h2>Une rûche d'idées</h2>
 	<script src="assets/libraries/jquery-3.7.1.min.js"></script>
 	<script src="assets/js/anim.js"></script>
 	
