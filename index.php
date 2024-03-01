@@ -5,13 +5,13 @@
 		<?php include 'inc.head.php';?>
 	</head>
 <body>
-	<h1>Busy B</h1>
+	
 	<nav>
-		<ul id="hexalist">
-			<div class="hex-container">
-				<div class="hex-row top">
-					<li class="hex pink">&nbsp;</li>
-					<li id="hexa1" class="hex hex-nav yellow"><span class="link"><a class='nav-link' >contact</a></span></li>
+			<ul id="hexalist">
+				<div class="hex-container">
+					<div class="hex-row top">
+						<li class="hex pink">&nbsp;</li>
+						<li id="hexa1" class="hex hex-nav yellow"><span class="link"><a class='nav-link' >contact</a></span></li>
 				</div>
 				<div class="hex-row mid">
 					<li id="hexa2" class="hex hex-nav yellow"><span class="link"><a class='nav-link' href="expertise.php">notre expertise</a></span></li>
@@ -23,9 +23,10 @@
 					<li id="hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
 		 	 	</div> 
 	  		</div>
-		</ul>
+			</ul>
+
 	</nav>
-	<h2>Une rûche d'idées</h2>
+	
 	<script src="assets/libraries/jquery-3.7.1.min.js"></script>
 	<script src="assets/js/anim.js"></script>
 	
