@@ -112,7 +112,7 @@ h1, h2 {
 
 
 .footer-text {
-    color:var(--tertiary-color);
+    color: var(--tertiary-color);
     font-family: var(--tertiary-font);
     font-size: 2rem;
 }
