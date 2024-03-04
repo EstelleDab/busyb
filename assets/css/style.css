@@ -103,12 +103,18 @@ h1, h2 {
 }
 
 
-.d-flex {
+.hex-gap{
     column-gap: 6rem;
 }
-footer {
-    border: 2px solid red;
+
+
+.footer-text {
+    color:var(--tertiary-color);
+    font-family: var(--tertiary-font);
+    font-size: 2rem;
 }
+
+
 
 /*le menu hexagone*/
 
@@ -129,11 +135,6 @@ footer {
     padding:3rem;
 }*/
 
-.footer-text {
-    color:var(--tertiary-color);
-    font-family: var(--tertiary-font);
-    font-size: 2rem;
-}
 
 
 .hex{
