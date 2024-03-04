@@ -109,11 +109,18 @@ h1, h2 {
 
 
 .footer-text {
+<<<<<<< Updated upstream
     color:var(--tertiary-color);
     font-family: var(--tertiary-font);
     font-size: 2rem;
 }
 
+=======
+    color: var(--tertiary-color);
+    font-family: var(--tertiary-font);
+    font-size: 2rem;
+}
+>>>>>>> Stashed changes
 
 
 /*le menu hexagone*/
