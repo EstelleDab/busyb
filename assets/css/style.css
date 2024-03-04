@@ -106,7 +106,9 @@ h1, h2 {
 .d-flex {
     column-gap: 6rem;
 }
-
+footer {
+    border: 2px solid red;
+}
 
 /*le menu hexagone*/
 
@@ -126,6 +128,13 @@ h1, h2 {
     flex-direction: column;
     padding:3rem;
 }*/
+
+.footer-text {
+    color:var(--tertiary-color);
+    font-family: var(--tertiary-font);
+    font-size: 2rem;
+}
+
 
 .hex{
     position: relative;

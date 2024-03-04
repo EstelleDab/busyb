@@ -26,7 +26,9 @@
 			</ul>
 
 	</nav>
+
 	
+
 	<script src="assets/libraries/jquery-3.7.1.min.js"></script>
 	<script src="assets/js/anim.js"></script>
 	
