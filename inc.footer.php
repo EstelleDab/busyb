@@ -6,7 +6,7 @@
           </div>
 
           <div class= "px-4">
-            <p class="footer-text">Mentions Légales</p>
+            
   <p class="footer-text px-5">Mentions Légales</p>
 
 		  </div>
