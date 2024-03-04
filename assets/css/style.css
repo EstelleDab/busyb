@@ -110,6 +110,16 @@ h1, h2 {
 
 
 
+
+.footer-text {
+    color:var(--tertiary-color);
+    font-family: var(--tertiary-font);
+    font-size: 2rem;
+}
+
+
+
+
 /*le menu hexagone*/
 
 
@@ -129,11 +139,6 @@ h1, h2 {
     padding:3rem;
 }*/
 
-.footer-text {
-    color:var(--tertiary-color);
-    font-family: var(--tertiary-font);
-    font-size: 2rem;
-}
 
 .main-hex img {
     width: 100%;

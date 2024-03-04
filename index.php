@@ -8,7 +8,9 @@
 	
 	<nav class="h-100">
 			<ul id="hexalist" class="h-100"  >
+
 				<div class="hex-gap h-100 d-flex flex-row justify-content-center align-items-center">
+
 					<div class="hex-gap d-flex flex-column  align-items-center">
 						<li class="hex pink">&nbsp;</li>
 						<li id="hexa1" class="hex hex-nav yellow"><span class="link"><a class='nav-link' >contact</a></span></li>
