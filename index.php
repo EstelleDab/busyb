@@ -19,7 +19,7 @@
 		  				<li id="hexa4" class="hex hex-nav black"><span class="link"><a class='nav-link'>travaillons ensemble</a></span></li>
 					</div>
 					<div class="d-flex flex-column align-items-center">
-						<li id="hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="equipe.php">busy b</a></span></li>
+						<li id="hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="equipe.php">busy bees</a></span></li>
 						<li id="hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
 		 	 		</div> 
 	  		</div>
