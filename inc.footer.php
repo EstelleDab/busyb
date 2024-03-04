@@ -7,6 +7,8 @@
 
           <div class= "px-4">
             <p class="footer-text">Mentions Légales</p>
+  <p class="footer-text px-5">Mentions Légales</p>
+
 		  </div>
         </div>
 
@@ -19,7 +21,9 @@
               		<img  src="assets/images/icons/facebook.png" alt="logo-facebook">
             	</a>
           		</div>
+
 				<div class= "px-3">
+
             		<a class="footer-text"  href="#" title="instagram">
               		<img src="assets/images/icons/instagram.png" alt="logo-instagram">
             		</a>
