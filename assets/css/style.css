@@ -103,7 +103,7 @@ h1, h2 {
 }
 
 
-.d-flex {
+.gap{
     column-gap: 6rem;
 }
 footer {
@@ -135,6 +135,11 @@ footer {
     font-size: 2rem;
 }
 
+.main-hex img {
+    width: 100%;
+    position : relative;
+    bottom: 2rem;
+}
 
 .hex{
     position: relative;
@@ -260,11 +265,6 @@ span.link {
 
 /*positionnement abeille*/ 
 
-#hexa3 img {
-    width: 100%;
-    position : relative;
-    bottom: 2rem;
-}
 
 
 
