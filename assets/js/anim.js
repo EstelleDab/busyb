@@ -21,4 +21,15 @@ $('.link').fadeOut(1000,function(){
   
 
 });
+
+
+var cardA = document.querySelector('.card-amanda');
+cardA.addEventListener( 'click', function() {
+  cardA.classList.toggle('is-flipped');
+});
+
+var cardE = document.querySelector('.card-estelle');
+cardE.addEventListener( 'click', function() {
+  cardE.classList.toggle('is-flipped');
+});
 });

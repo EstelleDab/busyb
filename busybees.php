@@ -11,27 +11,30 @@
     <section class='h-100 bg-white '>
     <h1 class='bg-dark text-primary px-5' >L'ÉQUIPE DE BUSY BEES</h1>
         <h2 class='text-secondary px-5'>Présentation de l'équipe</h2>
-        <div class='h-50 px-5'>
-            <p>
+        <div class='h-25 px-5'>
+            <p class='card'>
 blabla
             </p>
         </div>
+      
 
-     
-        <div class='d-flex flex-row justify-content-center align-items-center  team-gap '>
-            <div class='d-flex flex-column  align-items-center'>
-        
-          <div class='hex-team amanda'>first</div>
-                <div class='hex-team invisible'></div>   
+        <div class='h-50 d-flex flex-row  justify-content-start align-items-center '>
+            <div class='d-flex flex-column align-items-center mb-5 '>
+                <div class='hex-team mb-5'>
+                    <img width='100%' src='assets/images/amanda.jpg'>
+                </div>
             </div>     
-             <div id='fra' class='d-flex flex-column  align-items-center'>   
-                <div class=' hex-team'>fourth</div>
+            <div class=' d-flex flex-column align-items-center mt-5'>   
+                <div class='hex-team'>
+                    <img src='assets/images/estelle.jpeg'>
+                </div>
             </div>    
-            <div id='ste' class='d-flex flex-column  align-items-center'>  
-                <div class='hex-team'>sixth</div>
-                <div class='hex-team invisible'></div>
-            </div>     
-            <div class='d-flex flex-column  align-items-center'>   
+            <div class='d-flex flex-column align-items-center mb-5 '>
+                <div class='mb-5 hex-team'>
+                    <img src='assets/images/fra.png'>
+                </div>
+                </div> 
+            <div class=' d-flex flex-column  align-items-center mt-5'>   
                 <div class='hex-team'>nineth</div>
             </div>   
         </div> 

@@ -220,6 +220,7 @@ h1, h2 {
 
 .hex-gap{
     column-gap: 6rem;
+    border: 2px solid red;
 }
 
 
