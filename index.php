@@ -5,7 +5,8 @@
 		<?php include 'inc.head.php';?>
 	</head>
 <body>
-	
+<!--<h1 class='visually-hidden'>Agence Digitale Busy B</h1>
+<h2 class='visually-hidden'>Une rûche d'idées!</h2>-->
 	<nav class="h-100">
 			<ul id="hexalist" class="h-100"  >
 
@@ -26,7 +27,7 @@
 						<li id="js-hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="busybees.php">busy bees</a></span></li>
 						<li id="js-hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
 		 	 		</div> 
-	  		</div>
+	  			</div>
 			</ul>
 
 	</nav>
