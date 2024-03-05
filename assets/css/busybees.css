@@ -32,9 +32,9 @@
     border-left: 47.34px solid  transparent;
 }
 
-.hex-team {
-    background-color:transparent;
-    color: var(--black-color);
+.hex-team.amanda {
+    background-image: url('./assets/images/amanda.jpg');
+    background-color: yellow;
 }
 
 .invisible {
@@ -45,10 +45,5 @@
     column-gap: 3rem;
 }
 
-#ama {
-    background-image: transparent
-    url("/assets/images/amanda.jpg") no-repeat;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
-}
+*/
+

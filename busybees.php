@@ -16,9 +16,12 @@
 blabla
             </p>
         </div>
+
+     
         <div class='d-flex flex-row justify-content-center align-items-center  team-gap '>
             <div class='d-flex flex-column  align-items-center'>
-                <div id='ama'class='hex-team'>first</div>
+        
+          <div class='hex-team amanda'>first</div>
                 <div class='hex-team invisible'></div>   
             </div>     
              <div id='fra' class='d-flex flex-column  align-items-center'>   
@@ -30,7 +33,7 @@ blabla
             </div>     
             <div class='d-flex flex-column  align-items-center'>   
                 <div class='hex-team'>nineth</div>
-            </div>    
+            </div>   
         </div> 
     </section>
 
