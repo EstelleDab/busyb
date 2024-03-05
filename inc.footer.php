@@ -1,4 +1,4 @@
-<footer class="h-25 fixed-bottom bg-transparent ">
+<footer class="h-25 text-tertiary fixed-bottom bg-transparent ">
     <div class=" h-75 mb-0 bg-transparent d-flex flex-row justify-content-center align-items-center">
       	<div class= " d-flex flex-row ">
           <div class= "px-4">

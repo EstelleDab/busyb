@@ -49,11 +49,15 @@
 }
 
 @font-face {
-    font-family: 'Poppins Regular';
-    font-style: normal;
+    font-family: 'Poppins';
+    src: local('Poppins Regular')
+    url('/assets/fonts/Poppins-Regular.woff2') format('woff2'),
+        url('/assets/fonts/Poppins-Regular.woff') format('woff');
     font-weight: normal;
-    src: local('Poppins Regular'), url('Poppins-Regular.woff') format('woff');
+    font-style: normal;
+    font-display: swap;
 }
+
 
 :root {
     --primary-color: #FFBB1C;
@@ -61,12 +65,26 @@
     --tertiary-color: #EF566A;
     --black-color: #2B2B2B;
     --white-color: #fafafa;
-    --primary-font: 'ConsolaMono-Bold', Arial, sans-serif;
+    --primary-font: 'Consola Mono Bold', Arial, sans-serif;
     --secondary-font: 'Poppins', Arial, sans-serif;
     --tertiary-font: 'Nonchalance Bold', sans-serif;
 }
 
-
+.text-primary {
+    color: var(--primary-color)!important;
+}
+.text-secondary{
+    color: var(--secondary-color)!important;
+}
+.text-tertiary {
+    color: var(--tertiary-color)!important;
+}
+.bg-dark{
+   background-color:#2B2B2B!important;
+}
+.bg-white {
+    background-color:#fafafa !important;
+}
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
@@ -99,20 +117,17 @@ body {
     }
 
 h1, h2 {
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
 }
 
-
-.hex-gap{
-    column-gap: 6rem;
+.container{
+    border:2px solid red;
 }
 
-
-
-
+/*footer*/ 
 
 .footer-text {
-    color: var(--tertiary-color);
+    
     font-family: var(--tertiary-font);
     font-size: 2rem;
 }
@@ -120,7 +135,10 @@ h1, h2 {
 
 
 
-/*le menu hexagone*/
+
+
+
+
 
 
 
@@ -139,7 +157,8 @@ h1, h2 {
     padding:3rem;
 }*/
 
-
+/*l hexagone central et retour menu */ 
+/*positionnement abeille*/ 
 .main-hex img {
     width: 100%;
     position : relative;
@@ -173,7 +192,7 @@ h1, h2 {
     border-bottom: 82px solid transparent;
   }
 
-  .main-hex.blue:before {
+.main-hex.blue:before {
     right: 100%;
     border-right:  47.34px  solid var(--secondary-color);
 }
@@ -183,6 +202,8 @@ h1, h2 {
     width: 0;
     border-left: 47.34px   solid var(--secondary-color);
 }
+
+/*le menu hexagone*/
 
 .hex{
     position: relative;
@@ -194,6 +215,12 @@ h1, h2 {
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
+
+.hex-gap{
+    column-gap: 6rem;
+}
+
+
 
 /*positionnement du texte des liens au premier plan*/
 
@@ -306,7 +333,7 @@ span.link {
     border-left: 90px solid var(--black-color);
 }
 
-/*positionnement abeille*/ 
+
 
 
 
