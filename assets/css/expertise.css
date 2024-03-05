@@ -1,0 +1,104 @@
+/*********************
+Page expertise****/
+
+/** Header **/
+
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    perspective: 11px;
+}
+
+.header-expertise {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    z-index: -2;
+}
+
+.background-far {
+    transform: translateZ(-50px) scale(6);
+}
+
+.background {
+    transform: translateZ(-20px) scale(2.9);
+}
+
+.background-far,
+.background,
+.foreground {
+position: absolute;
+height: 100%;
+width: 100%;
+object-fit: cover;
+z-index: -1;
+}
+
+.foreground {
+    transform: translateZ(2px) scale(0.2) translateX(200%); 
+    width: 50%;
+}
+
+
+/** Main **/
+@media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+.section-expertise {
+    padding: 2rem;
+    height: 100vh;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 45%; 
+    height: 27rem;
+}
+
+.parallax1 {
+    background-image: url("/assets/images/expertise/parallax1.jpg");
+}
+
+.parallax2 {
+    background-image: url("/assets/images/expertise/parallax2.jpg");
+}
+
+.parallax3 {
+    background-image: url("/assets/images/expertise/parallax3.jpg");
+}
+
+.parallax4 {
+    background-image: url("/assets/images/expertise/parallax4.jpg");
+}
+
+.wbg {
+    background-color: #ffffff;
+    height: 250vh;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.text {
+    width: 50%; 
+}
+
