@@ -83,7 +83,7 @@
    background-color:#2B2B2B!important;
 }
 .bg-white {
-    background-color:#fafafa !important;
+    background-color:#fafafa!important;
 }
 /*************COMMUNS*************/
 /*éléments communs*/
@@ -216,11 +216,57 @@ h1, h2 {
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
+
+
 .hex-gap{
     column-gap: 6rem;
 }
 
+.hex-team {
+    position: relative;
+    width:94.68px; 
+    height: 164px;
+    margin-bottom:0.5rem;
+    font-family: var(--tertiary-font);
+    padding-top:4.5rem;
+    -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+    filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
+}
 
+.hex-team:before,
+.hex-team:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 0;
+    border-top: 82px solid transparent; 
+    border-bottom: 82px solid transparent;
+  }
+
+.hex-team:before {
+    right: 100%;
+    border-right: 47.34px solid var(--primary-color); 
+    z-index: 1;
+}
+
+.hex-team:after {
+    left: 100%;
+    width: 0;
+    border-left: 47.34px solid  var(--primary-color);
+}
+
+.hex-team {
+    background-color: var(--primary-color);
+    color: var(--black-color);
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.team-gap {
+    column-gap: 3rem;
+}
 
 /*positionnement du texte des liens au premier plan*/
 
