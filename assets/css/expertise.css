@@ -63,10 +63,11 @@ z-index: -1;
     background-repeat: no-repeat;
     width: 45%; 
     height: 27rem;
+    border: red 1px solid;
 }
 
 .parallax1 {
-    background-image: url("/assets/images/expertise/parallax1.jpg");
+    background-image: url("assets/images/expertise/parallax1.jpg");
 }
 
 .parallax2 {
