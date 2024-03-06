@@ -1,10 +1,10 @@
-.hex-team {
+/*.hex-team {
 position: relative;
 background-color: var(--tertiary-color);
-height:193px;
-width:  213px;
+height:386px;
+width:  426px;
 clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
-} 
+} */
 
 .hex-team img{
     width:100%;
@@ -15,22 +15,71 @@ clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
     visibility: hidden;
 }
 
-
-.mt-5 {
-    margin-top:5rem!important;
+.mt-5{
+    margin-top: 15rem!important;
 }
+.mb-5 {
+    margin-bottom: 15rem!important;
 
-.mb-5{
-    margin-bottom:5rem!important;
 }
-
+/*
 .container .colonne {
     position: relative;
     width: 440px;
     height: 400px;
    
+}*/
+
+.carte {
+    position: relative;
+    margin: 100px;
+    width:426px;
+    height:386px;
+   clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+}
+
+.carte__inner {
+    width: 100%;
+    height: 100%;
+    transition : transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative ;
+}
+
+.carte__inner.is-flipped {
+    transform: rotateY(180deg);
+}
+
+.carte__face {
+   position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    overflow:hidden;
 }
 
 
+.carte__face img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
 
+.carte__face--back{
+    transform: rotateY(180deg);
+}
+
+.carte__content {
+   text-align:justify;
+    width:70%;
+    height:100%;
+    
+}
+
+.carte__header {
+    position: relative;
+    padding: 10px 10px 15px;
+    text-align: center;
+}
 

@@ -14,12 +14,15 @@ $('#'+myHexa).css({'transform': 'scale(30)', 'transition':'all 500ms ease-out'})
 $('a').fadeOut(500);
 $('.link').fadeOut(1000,function(){
 
-    window.location.href=myurl;
-    
+    window.location.href=myurl;  
 });
-  
+});
+var carte=document.querySelector('.carte__inner');
 
+carte.addEventListener('click', function() {
+    carte.classList.toggle('is-flipped');
+})
 });
 
 
-});
+

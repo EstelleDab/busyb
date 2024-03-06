@@ -1,13 +1,13 @@
 <footer class="h-25 text-tertiary bottom bg-transparent ">
-    <div class=" h-75 mb-0 bg-transparent d-flex flex-row justify-content-center align-items-center">
+    <div class=" h-50 mb-0 bg-transparent d-flex flex-row justify-content-center align-items-center">
       	<div class= " d-flex flex-row ">
           <div class= "px-4">
-            <p class="footer-text" >Politique de confidentialité</p>
+            <p class="footer-text text-info" >Politique de confidentialité</p>
           </div>
 
           <div class= "px-4">
             
-  <p class="footer-text px-5">Mentions Légales</p>
+  <p class="footer-text text-info px-5">Mentions Légales</p>
 
 		  </div>
         </div>

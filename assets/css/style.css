@@ -69,7 +69,7 @@
     --secondary-font: 'Poppins', Arial, sans-serif;
     --tertiary-font: 'Nonchalance Bold', sans-serif;
 }
-
+/*
 .text-primary {
     color: var(--primary-color)!important;
 }
@@ -84,7 +84,7 @@
 }
 .bg-white {
     background-color:#fafafa!important;
-}
+} 
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
@@ -147,6 +147,7 @@ transition: ease-in;
 
 /*l hexagone central et retour menu */ 
 /*positionnement abeille*/ 
+
 .main-hex img {
     width: 100%;
     position : relative;
