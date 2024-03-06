@@ -7,8 +7,7 @@
 <body class="bg-dark vw-auto">
     <?php include 'inc.header.php';?>
     
-      
-    <section class='bg-white '>
+    <section class='bg-white h-100'>
         <h1 class='bg-dark text-primary px-5' >L'ÉQUIPE DE BUSY BEES</h1>
         <h2 class='text-secondary px-5'>Présentation de l'équipe</h2>
         <div class='h-100'>
@@ -37,8 +36,6 @@
             </div> 
         </div>
     </section>
-
     <?php include 'inc.footer.php';?>
-
 </body>
 </html>
