@@ -22,7 +22,7 @@
 					</div>
 					<div class="hex-gap d-flex flex-column align-items-center">
 						<li id="hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="equipe.php">busy bees</a></span></li>
-						<li id="hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
+						<li id="hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link' href="portfolio.php">portfolio</a></span></li>
 		 	 		</div> 
 	  		</div>
 			</ul>
