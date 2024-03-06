@@ -65,8 +65,27 @@
     --secondary-font: 'Poppins', Arial, sans-serif;
     --tertiary-font: 'Nonchalance Bold', sans-serif;
 }
+<<<<<<< Updated upstream
 
 
+=======
+/*
+.text-primary {
+    color: var(--primary-color)!important;
+}
+.text-secondary{
+    color: var(--secondary-color)!important;
+}
+.text-tertiary {
+    color: var(--tertiary-color)!important;
+}
+.bg-dark{
+   background-color:#2B2B2B!important;
+}
+.bg-white {
+    background-color:#fafafa!important;
+}*/
+>>>>>>> Stashed changes
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
