@@ -66,6 +66,14 @@
     --tertiary-font: 'Nonchalance Bold', sans-serif;
 }
 
+.bg-yellow {
+    background-color: var(--primary-color);
+}
+
+.bg-white {
+    background-color: var(--white-color);
+}
+
 
 /*************COMMUNS*************/
 /*éléments communs*/
@@ -307,4 +315,6 @@ span.link {
 }
 
 /*positionnement abeille*/ 
+
+
 
