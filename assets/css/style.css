@@ -124,14 +124,10 @@ h1, h2 {
 /*footer*/ 
 
 .footer-text {
-    
     font-family: var(--tertiary-font);
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
-footer {
-    border: 2px solid red;
-}
 
 .hex-button{
 animation : zoomout 2s;
