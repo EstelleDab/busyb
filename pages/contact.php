@@ -75,9 +75,6 @@
 
         </div><!-- eof row -->
     </div><!-- eof container form + map -->
-    
-    <?php include '../inc.footer.php';?>
-</body>
 
 
     <?php include '../inc.footer.php';?>
