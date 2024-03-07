@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Busy B Agence Digitale</title>
+		<title>Busy B Agence Digitale</title> 
 		<?php include 'inc.head.php';?>
 	</head>
 <body>
@@ -24,15 +24,15 @@
 					</div>
 					<div class="d-flex flex-column align-items-center">
 
-						<li id="js-hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="busybees.php">busy bees</a></span></li>
+						<li id="js-hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="pages/busybees.php">busy bees</a></span></li>
 						<li id="js-hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
 		 	 		</div> 
 	  			</div>
 			</ul>
 
 	</nav>
+	<script src="assets/libraries/jquery-3.7.1.min.js"></script>
 	<script src="assets/js/anim.js"></script>	
-   <script src="assets/libraries/jquery-3.7.1.min.js"></script>
 
 </body>
 </html>

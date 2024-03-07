@@ -16,12 +16,12 @@
 			<div class="px-5 d-flex flex-row" >
 				<div class= "px-3">
             		<a class="footer-text"  href="#" title="facebook">
-              		<img  src="assets/images/icons/facebook.png" alt="logo-facebook">
+              		<img  src="../assets/images/icons/facebook.png" alt="logo-facebook">
             	</a>
           		</div>
 				<div class= "px-3">
             		<a class="footer-text"  href="#" title="instagram">
-              		<img src="assets/images/icons/instagram.png" alt="logo-instagram">
+              		<img src="../assets/images/icons/instagram.png" alt="logo-instagram">
             		</a>
           		</div>
 			</div>
