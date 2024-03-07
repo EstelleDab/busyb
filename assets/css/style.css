@@ -129,6 +129,9 @@ h1, h2 {
     font-size: 2rem;
 }
 
+footer {
+    border: 2px solid red;
+}
 
 .hex-button{
 animation : zoomout 2s;
