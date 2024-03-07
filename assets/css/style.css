@@ -82,9 +82,18 @@
 .bg-dark{
    background-color:#2B2B2B!important;
 }
+*/
+
 .bg-white {
     background-color:#fafafa!important;
 } 
+
+
+.bg-yellow {
+    background-color: var(--primary-color);
+}
+
+
 /*************COMMUNS*************/
 /*éléments communs*/
 html {
@@ -322,6 +331,8 @@ span.link {
     width: 0;
     border-left: 90px solid var(--black-color);
 }
+
+
 
 
 

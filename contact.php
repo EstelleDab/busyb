@@ -6,10 +6,10 @@
     <?php include 'inc.head.php';?>
 </head>
 
-<body class="vw-auto h-100">
+<body class="vw-auto h-100 bg-yellow">
     <?php include 'inc.header.php';?>
 
-    <div class="container mt-5">
+    <div class="container mt-5 mb-5 p-5 bg-white border rounded">
         <h1>Contact</h1>
         <div class="row">
 
