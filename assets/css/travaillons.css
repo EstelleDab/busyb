@@ -9,13 +9,10 @@
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); 
 }
 
-
-
 .carousel-item img{
     position: absolute;
     margin: auto;
 }
-
 
 .carousel-item p {
     text-align:justify;

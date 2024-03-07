@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Page équipe</title>
-    <link href="../assets/css/busybees.css" rel="stylesheet">
-    <?php include '../inc.head.php';?>
-</head>
+    <head>
+        <title>Page équipe</title>
+        <link href="../assets/css/busybees.css" rel="stylesheet">
+        <?php include '../inc.head.php';?>
+    </head>
 <body class="bg-dark">
     <?php include '../inc.header.php';?>
     
@@ -45,7 +45,7 @@
                     </div>
                 </div>
              
-                <div class='mycolumn d-flex flex-column w-10 mt-9'>
+                <div class='d-flex flex-column w-10 mt-9'>
                     <div class='carte mt-5'>
                         <div id='js-ste' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
@@ -69,7 +69,7 @@
                     </div>
                 </div>
             
-                <div class='mycolumn d-flex flex-column w-10 mb-5'>
+                <div class='d-flex flex-column w-10 mb-5'>
                     <div class='carte mb-5'>
                         <div id='js-fra' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
@@ -94,7 +94,7 @@
                 </div>
             
 
-            <div class='mycolumn d-flex flex-column mt-9 w-10'>
+            <div class='d-flex flex-column mt-9 w-10'>
                 <div class='carte mt-5 bg-info'>
                         <div id='js-fra' class='carte__inner'>
                             <div class="pink carte__face carte__face--front d-flex align-items-center justify-content-center">
