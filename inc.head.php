@@ -5,4 +5,5 @@
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
    <link href="assets/css/style.css" rel="stylesheet">
    <link href="assets/css/expertise.css" rel="stylesheet">
+   <link href="assets/css/portfolio.css" rel="stylesheet">
 </head>
