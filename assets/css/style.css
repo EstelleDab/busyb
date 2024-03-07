@@ -93,10 +93,8 @@ html {
 }
 
 body {
-    
     height: 100%;
     animation: fadein 3s; 
-    
 }
     @keyframes fadein {
         0% {
@@ -124,18 +122,13 @@ h1, h2 {
 /*footer*/ 
 
 .footer-text {
-    
     font-family: var(--tertiary-font);
-    font-size: 2rem;
-}
-
-footer {
-    border: 2px solid red;
+    font-size: 1.5rem;
 }
 
 .hex-button{
-animation : zoomout 2s;
-transition: ease-in;
+    animation : zoomout 2s;
+    transition: ease-in;
 }
 @keyframes zoomout{
     0% {
@@ -208,12 +201,9 @@ transition: ease-in;
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
-
-
 .hex-gap{
     column-gap: 6rem;
 }
-
 
 
 /*positionnement du texte des liens au premier plan*/
@@ -326,10 +316,6 @@ span.link {
     width: 0;
     border-left: 90px solid var(--black-color);
 }
-
-
-
-
 
 
 .parallax {
