@@ -3,8 +3,8 @@
 
 <head>
     <title>Page expertise</title>
-    <?php include 'inc.head.php';?>
-    <?php include 'inc.header.php';?>
+    <?php include '../inc.head.php';?>
+    <?php include '../inc.header.php';?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -124,7 +124,7 @@
     </div><!-- eof container -->
 
 
-    <?php include 'inc.footer.php';?>
+    <?php include '../inc.footer.php';?>
 </body>
 
 </html>

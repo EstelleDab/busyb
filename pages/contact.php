@@ -3,18 +3,18 @@
 
 <head>
     <title>Page contact</title>
-    <?php include 'inc.head.php';?>
+    <?php include '../inc.head.php';?>
 </head>
 
 <body class="vw-auto h-100 bg-yellow">
-    <?php include 'inc.header.php';?>
+    <?php include '../inc.header.php';?>
 
-    <div class="container mt-5 mb-5 p-5 bg-white border rounded">
+    <div class="container mt-5 mb-5 p-5 bg-white border-0 rounded">
         <h1>Contact</h1>
         <div class="row">
 
             <!-- Formulaire de contact -->
-            <form>
+            <form class="col-md-6">
                 <div class="row">
                     <div class="col-md-6">
                         <label for="fname" class="form-label">
@@ -32,40 +32,36 @@
                 </div>
 
                 <div class="row">
-                <div class="col-md-8">
-                    <label for="email" class="form-label">
-                        Adresse email
-                    </label>
-                    <input type="email" class="form-control" id="email" required>
+                    <div class="col-md-8">
+                        <label for="email" class="form-label">
+                            Adresse email
+                        </label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="phone" class="form-label">
+                            Numéro
+                        </label>
+                        <input type="text" class="form-control" id="phone">
+                    </div>
                 </div>
 
-                <div class="col-md-4">
-                    <label for="phone" class="form-label">
-                        Numéro
-                    </label>
-                    <input type="text" class="form-control" id="phone">
-                </div>
-            </div>
+                <div class="row">
+                    <div class="col-md-12 mb-3">
+                        <label for="message" class="form-label">
+                            Message
+                        </label>
+                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                    </div>
 
-            <div class="row">
-                <div class="col-md-12 mb-3">
-                    <label for="message" class="form-label">
-                        Message
-                    </label>
-                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-primary">
+                            Envoyer
+                        </button>
+                    </div>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">
-                        Envoyer
-                    </button>
-                </div>
-            </div>
-
             </form>
-
 
             <!-- Map -->
             <div class="col-md-6">
@@ -79,8 +75,12 @@
 
         </div><!-- eof row -->
     </div><!-- eof container form + map -->
+    
+    <?php include '../inc.footer.php';?>
+</body>
 
-    <?php include 'inc.footer.php';?>
+
+    <?php include '../inc.footer.php';?>
 </body>
 
 </html>
