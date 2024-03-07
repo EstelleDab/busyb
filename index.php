@@ -31,8 +31,8 @@
 			</ul>
 
 	</nav>
-
-	
+	<script src="assets/js/anim.js"></script>	
+   <script src="assets/libraries/jquery-3.7.1.min.js"></script>
 
 </body>
 </html>
