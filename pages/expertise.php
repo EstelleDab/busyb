@@ -22,8 +22,10 @@
         <div class="parallax p-5 rounded">
 
 
-            <div class="card mb-5 border-0">
-                <p class="card-body p-5">Busy B, c'est votre partenaire privilégié dans le monde numérique en constante
+            <div class="card mb-5 border-0 text-center">
+                <div class="card-body p-3">
+                <h2 class="p-2">Faites le buzz avec Busy B !</h2>
+                <p>Busy B, c'est votre partenaire privilégié dans le monde numérique en constante
                     évolution. En tant
                     qu'agence web avant-gardiste, Busy B s'engage à offrir des solutions innovantes et personnalisées
                     pour répondre à vos besoins numériques les plus exigeants. Que vous aspiriez à une présence en ligne
@@ -31,6 +33,7 @@
                     équipe dévouée allie expertise technique et créativité pour concrétiser vos ambitions. Explorez
                     notre gamme complète de services et découvrez comment Busy B peut transformer vos idées en réalité
                     numérique, propulsant votre entreprise vers de nouveaux sommets dans le paysage digital.</p>
+                </div>
             </div>
 
 
