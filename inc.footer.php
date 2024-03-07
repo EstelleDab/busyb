@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-<footer class="h-25 fixed-bottom bg-transparent ">
-=======
 <footer class="h-25 text-tertiary bottom bg-transparent ">
->>>>>>> Stashed changes
     <div class=" h-75 mb-0 bg-transparent d-flex flex-row justify-content-center align-items-center">
       	<div class= " d-flex flex-row ">
           <div class= "px-4">
