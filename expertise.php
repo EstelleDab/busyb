@@ -4,6 +4,7 @@
 <head>
     <title>Page expertise</title>
     <?php include 'inc.head.php';?>
+    <link href="assets/css/expertise.css" rel="stylesheet">
 </head>
 
 <body>
