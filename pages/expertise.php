@@ -3,66 +3,131 @@
 
 <head>
     <title>Page expertise</title>
-    <?php include 'inc.head.php';?>
-    <link href="assets/css/expertise.css" rel="stylesheet">
+    <?php include '../inc.head.php';?>
+    <?php include '../inc.header.php';?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="../assets/css/expertise.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-yellow">
 
 
-    <div class="wrapper">
-        <header class="header-expertise">
-            <img src="assets/images/expertise/sky.jpg" class="background-far">
-            <img src="assets/images/expertise/field.png" class="background">
-            <img src="assets/images/expertise/bee.png" class="foreground">
-            <h1>Notre expertise</h1>
-        </header>
 
-        <div class="wbg">
-            <section class="section-expertise">
+    <div class="container rounded mt-5 mb-5 p-5">
 
-                <p>Bienvenue chez Busy B, votre partenaire privilégié pour donner vie à votre présence en ligne de manière exceptionnelle. Chez Busy B, nous croyons en la puissance de la créativité, de l'innovation et de la technologie pour propulser votre entreprise vers de nouveaux horizons sur le web. Que vous cherchiez à établir une identité de marque distinctive, à développer un site web sur mesure, à optimiser votre visibilité grâce au marketing numérique, ou à améliorer l'expérience utilisateur, notre équipe dévouée est là pour transformer vos idées en réalité. Nous allions expertise technique et sens artistique pour créer des solutions web uniques, adaptées à vos besoins spécifiques. Explorez nos services diversifiés et découvrez comment Busy B peut être le catalyseur de votre succès numérique. Prêts à relever tous les défis, nous sommes impatients de collaborer avec vous pour façonner une présence en ligne qui vous démarque et qui séduit votre audience. Bienvenue dans l'univers Busy B, où l'innovation rencontre l'excellence web.</p>
+        <h1 class="text-center mb-5">Notre expertise</h1>
 
-                    <div class="content-wrapper">
-                        <div class="content">
-                            <div class="text">
-                                <h2>Création d'Identité de Marque</h2>
-                                <p>Notre équipe de designers talentueux travaille en collaboration avec vous pour donner vie à une identité visuelle qui reflète l'essence même de votre entreprise. Du design de logo à la palette de couleurs, nous sommes là pour créer une image distinctive qui fera une impression durable sur vos clients.</p>
-                            </div>
-                            <div class="parallax parallax1"></div>
-                        </div>
-                    
-                        <div class="content">
-                            <div class="parallax parallax2"></div>
-                            <div class="text">
-                                <h2>Développement Web sur Mesure</h2>
-                                <p>Busy B excelle dans le développement web sur mesure. Que vous ayez besoin d'un site vitrine élégant, d'une boutique en ligne robuste ou d'une plateforme complexe, notre équipe technique est prête à transformer vos idées en réalité. Des solutions personnalisées pour répondre à vos besoins spécifiques.</p>
-                            </div>
-                        </div>
-                    
-                        <div class="content">
-                            <div class="text">
-                                <h2>Stratégie Marketing Numérique</h2>
-                                <p>Maximisez votre visibilité en ligne avec notre expertise en stratégie marketing numérique. De la gestion des médias sociaux à l'optimisation des moteurs de recherche (SEO), Busy B vous guide pour atteindre vos objectifs marketing et accroître votre présence sur le web.</p>
-                            </div>
-                            <div class="parallax parallax3"></div>
-                        </div>
+        <div class="parallax p-5 rounded">
 
-                        <div class="content">
-                            <div class="parallax parallax4"></div>
-                            <div class="text">
-                                <h2>UI & UX Design</h2>
-                                <p>Nous accordons une importance particulière à l'expérience utilisateur et au design d'interface. En combinant esthétique et fonctionnalité, nous créons des interfaces conviviales qui captivent les utilisateurs et renforcent la satisfaction client.</p>
-                            </div>
-                        </div>
 
-                    </div>
-                    
+            <div class="card mb-5 border-0 text-center">
+                <div class="card-body p-3">
+                <h2 class="p-2">Faites le buzz avec Busy B !</h2>
+                <p>Busy B, c'est votre partenaire privilégié dans le monde numérique en constante
+                    évolution. En tant
+                    qu'agence web avant-gardiste, Busy B s'engage à offrir des solutions innovantes et personnalisées
+                    pour répondre à vos besoins numériques les plus exigeants. Que vous aspiriez à une présence en ligne
+                    captivante, à un site web dynamique ou à des stratégies de marketing numérique percutantes, notre
+                    équipe dévouée allie expertise technique et créativité pour concrétiser vos ambitions. Explorez
+                    notre gamme complète de services et découvrez comment Busy B peut transformer vos idées en réalité
+                    numérique, propulsant votre entreprise vers de nouveaux sommets dans le paysage digital.</p>
+                </div>
+            </div>
 
-            </section>
 
-        </div>
+            <div class="card-deck"><!-- 1ère ligne -->
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
+                        <h3>Conception de Sites Web</h3>
+                        <p>Nous créons des sites web modernes et intuitifs pour représenter votre entreprise de manière
+                            professionnelle.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
 
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-paint-brush fa-3x mb-3"></i><!--icone-->
+                        <h3>Conception Graphique</h3>
+                        <p>Notre équipe de graphistes talentueux donne vie à votre marque avec des visuels accrocheurs
+                            et un design unique.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
+
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-cogs fa-3x mb-3"></i><!--icone-->
+                        <h3>Développement Web</h3>
+                        <p>Des solutions web personnalisées et évolutives pour répondre aux besoins spécifiques de votre
+                            entreprise.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
+            </div><!-- eof card-deck -->
+
+            <div class="card-deck mt-4"><!-- 2ème ligne -->
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-search fa-3x mb-3"></i><!--icone-->
+                        <h3>Référencement SEO</h3>
+                        <p>Optimisation pour les moteurs de recherche afin d'augmenter la visibilité de votre site et
+                            attirer un trafic qualifié.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
+
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-mobile fa-3x mb-3"></i><!--icone-->
+                        <h3>Applications Mobiles</h3>
+                        <p>Développement d'applications mobiles intuitives pour rester connecté avec vos clients où
+                            qu'ils soient.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
+
+                <div class="card text-center border-0">
+                    <div class="card-body">
+                        <i class="fa-solid fa-chart-bar fa-3x mb-3"></i><!--icone-->
+                        <h3>Analyse de Données</h3>
+                        <p>Utilisation de données pour optimiser les performances en ligne et prendre des décisions
+                            éclairées.</p>
+                    </div><!-- eof card-body -->
+                </div><!-- eof card -->
+
+            </div><!-- eof card-deck -->
+
+            <div class="card-deck mt-4"><!-- 3ème ligne -->
+            <div class="card text-center border-0">
+                <div class="card-body">
+                    <i class="fa-solid fa-code fa-3x mb-3"></i><!--icone-->
+                    <h3>UI & UX Design</h3>
+                    <p>Création d'interfaces utilisateur attrayantes et réactives avec les dernières technologies frontend.</p>
+                </div><!-- eof card-body -->
+            </div><!-- eof card -->
+    
+            <div class="card text-center border-0">
+                <div class="card-body">
+                    <i class="fa-solid fa-database fa-3x mb-3"></i><!--icone-->
+                    <h3>Gestion de Bases de Données</h3>
+                    <p>Conception et gestion efficace de bases de données pour assurer la disponibilité et la sécurité des données.</p>
+                </div><!-- eof card-body -->
+            </div><!-- eof card -->
+    
+            <div class="card text-center border-0">
+                <div class="card-body">
+                    <i class="fa-solid fa-users fa-3x mb-3"></i><!--icone-->
+                    <h3>Marketing Digital</h3>
+                    <p>Stratégies de marketing numérique pour maximiser la visibilité en ligne et attirer un public ciblé.</p>
+                </div><!-- eof card-body -->
+            </div><!-- eof card -->
+            </div><!-- eof card deck -->
+
+        </div><!-- eof parallax -->
+
+    </div><!-- eof container -->
+
+
+    <?php include '../inc.footer.php';?>
 </body>
 
 </html>
