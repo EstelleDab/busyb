@@ -228,7 +228,9 @@ span.link {
     color: inherit;
 }
 
-
+.nav {
+    border: 2px solid red;
+}
 /*comportement au survol*/ 
 
 .hex-nav:hover{
