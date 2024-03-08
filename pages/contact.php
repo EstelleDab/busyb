@@ -14,7 +14,7 @@
         <div class="row">
 
             <!-- Formulaire de contact -->
-            <form class="col-md-6">
+            <form class="col-md-6" id="contact-form" method="post" action="contact-form.php" role="form">
                 <div class="row">
                     <div class="col-md-6">
                         <label for="fname" class="form-label">
