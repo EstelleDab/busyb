@@ -25,7 +25,7 @@
 					<div class="d-flex flex-column align-items-center">
 
 						<li id="js-hexa5"  class="hex hex-nav black "><span class="link"><a class='nav-link' href="pages/busybees.php">busy bees</a></span></li>
-						<li id="js-hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link'>portfolio</a></span></li>
+						<li id="js-hexa6" class="hex hex-nav  blue "><span class="link"><a class='nav-link' href="pages/portfolio.php">portfolio</a></span></li>
 		 	 		</div> 
 	  			</div>
 			</ul>
