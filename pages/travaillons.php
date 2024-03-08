@@ -6,31 +6,31 @@
     <?php include '../inc.head.php';?>
 </head>
 
-<body class="bg-dark">
-    <?php include '../inc.header.php';?>
+<body class="bg-light">
+    <header class='bg-dark'>
+        <?php include '../inc.header.php';?>
+    </header>
     <main>
-
+    <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
         <section id='avis' class='bg-light'>
-            <div id="myCarousel" class="carousel slide bg-dark m-auto w-50" data-bs-ride="carousel">
-                <div class="carousel-inner align-items-center bg-light m-auto w-50 h-100">
-                    <div class="carousel-item active "> 
-                        <p class='text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+            <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
+                <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
+                    <div class="carousel-item pt-8 active "> 
+                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. BOUDY  viverra tellus in hac. 
                         Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
                         Felis eget nunc lobortis mattis. 
                         </p>
                     </div>
-                     <div class="carousel-item">
-                        <img src="../assets/images/stars.png"  alt="photo-stars">
-                        <p class=' d-block text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                     <div class="carousel-item pt-8">
+                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
                         Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
                         Felis eget nunc lobortis mattis. 
                         </p>
                     </div>
-                    <div class="carousel-item">
-                        <img src="../assets/images/stars.png"  alt="photo-stars">
-                        <p class='d-block text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                    <div class="carousel-item pt-8">
+                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
                         Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
                         Felis eget nunc lobortis mattis. 
@@ -51,12 +51,13 @@
             <div class='works d-flex flex-column'>
                 <div class='work'>
                 <div>
-
             </div>
 
 
 </main>
+<footer class='bg-dark'>
     <?php include '../inc.footer.php';?> 
+</footer >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/anim.js"></script>	

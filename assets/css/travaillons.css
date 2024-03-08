@@ -10,17 +10,9 @@
 }
 
 
-
-.carousel-item img{
-    position: absolute;
-    margin: auto;
-}
-
-
 .carousel-item p {
-    text-align:justify;
-    padding-top: 3rem;
-    margin: auto;
+   
+   
     width:60%;
     height:100%; 
 }
