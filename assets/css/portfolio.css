@@ -1,0 +1,32 @@
+
+
+/* vignettes images portfolio */
+.image-portfolio{
+    height: auto;
+    width: 15rem;
+}
+
+/* mise en forme des projets */
+
+.conteneur-projet{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+}
+
+
+.conteneur-projet-colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur-projet-image-texte{
+    display: flex;
+    flex-direction: row;
+}
+
+.conteneur-projet-image-texte > p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
