@@ -1,7 +1,7 @@
 <?php
 	// Param�tres de connexion
 	$serveur  = "localhost:3306";
-	$database = "bdd_projets";
+	$database = "bdd_busyb";
 	$user     = "ue223";
 	$password = "ue223";
 	

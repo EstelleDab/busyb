@@ -1,0 +1,69 @@
+-- SQlite
+-- Generation Time: Mar 07, 2024 at 10:27 AM
+-- Server version: 5.7.24
+-- PHP Version: 8.0.1
+
+/*SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";*/
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `bdd_busyb`
+--
+
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `realisations`
+--
+
+CREATE TABLE `realisations` (
+  `id` int(11) NOT NULL,
+  `titre` varchar(50) NOT NULL,
+  `date` date NOT NULL,
+  `texte` text NOT NULL,
+  `image` varchar(250) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `realisations`
+--
+
+INSERT INTO `realisations` (`id`, `titre`, `date`, `texte`, `image`) VALUES
+(1, 'Projet \"lignes de code\"', '2023-02-15', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean a nulla at dui pellentesque sollicitudin. Nullam finibus consequat tellus, eu fringilla odio elementum ac. Nam mattis tempus urna, et finibus sem fermentum elementum. Cras elementum dolor orci. Phasellus eget justo posuere, tempus dui at, blandit lorem. Quisque laoreet tellus diam. Etiam aliquam erat eget mauris efficitur fringilla. Morbi vestibulum tortor id diam eleifend dictum. Duis ante risus, sollicitudin fringilla urna sit amet, tristique pellentesque magna. Donec fermentum malesuada neque in luctus. Vivamus eget vehicula risus. Curabitur nec malesuada nisl, ut tempor ligula. Donec elementum purus metus, quis faucibus erat auctor ornare.', 'projet1.jpg'),
+(2, 'Projet \"Terre avec des cercles de binaires\"', '2024-02-05', 'Pellentesque iaculis lobortis elit, ac malesuada lorem. Phasellus id viverra velit. Morbi in neque sed libero vulputate aliquet. Vestibulum porttitor ante vitae pellentesque consequat. Quisque et ligula in dolor cursus egestas. Donec eget sem ligula. Nunc at magna a mauris porta lacinia et quis mauris. Cras ultricies efficitur mi, id auctor nisl iaculis sit amet. Pellentesque nec ornare leo, fermentum porttitor tortor. Proin ligula nisi, molestie at malesuada ut, pharetra quis enim.', 'projet2.jpg'),
+(3, 'Projet \"Cadenas numérique sécurisant\"', '2023-12-12', ' Phasellus ligula elit, viverra sed varius a, ultricies vitae tortor. Maecenas lacinia rhoncus cursus. Nunc eleifend interdum tellus, imperdiet porta diam pretium ac. Sed ac consequat lectus. Nunc ullamcorper metus non augue imperdiet, eget porta nunc sodales. Quisque nec blandit velit, non rutrum turpis. Mauris id consectetur justo. Pellentesque porta quis sapien in dignissim. Integer facilisis pharetra nibh ac ornare. Aenean vitae libero lorem. Etiam bibendum eget est id varius. Cras quis feugiat magna, quis mattis diam.\r\n\r\nFusce eleifend, sapien vitae volutpat gravida, dui ante suscipit magna, id laoreet ex velit eget erat. In non tortor urna. Nulla facilisi. Nullam euismod ligula eu dapibus faucibus. Donec libero nibh, pretium id cursus sit amet, tincidunt et nisi. In porttitor sapien sem, nec vulputate magna dapibus sed. Ut vitae nulla in mauris efficitur lobortis at ut turpis. Suspendisse ac erat ante. ', 'projet3.jpg');
+
+--
+-- Indexes for dumped tables
+--
+
+
+--
+-- Indexes for table `realisations`
+--
+ALTER TABLE `realisations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+
+--
+-- AUTO_INCREMENT for table `realisations`
+--
+ALTER TABLE `realisations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
