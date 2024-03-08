@@ -1,3 +1,8 @@
+<?php
+    include '../inc.connexion.php';
+    include '../inc.functions.php';
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,11 +16,16 @@
         <?php include '../inc.header.php';?>
     </header>
     <main>
+
+
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
         <section id='avis' class='bg-light'>
             <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
                 <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
-                    <div class="carousel-item pt-8 active "> 
+                    <?php getReviews();
+                  
+                    ?>
+                   <!-- <div class="carousel-item pt-8 active "> 
                         <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
                         labore et dolore magna aliqua. BOUDY  viverra tellus in hac. 
                         Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
@@ -35,8 +45,8 @@
                         Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
                         Felis eget nunc lobortis mattis. 
                         </p>
-                    </div>
-                </div>
+                    </div> -->
+                </div><!--eof avis--> 
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -45,7 +55,7 @@
                     <span class="carousel-control-next-icon btn btn-secondary" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-            </div>
+            </div><!--eof carousel-->
         </section>
         <section id='ads'>
             <div class='works d-flex flex-column'>
