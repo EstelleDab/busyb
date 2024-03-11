@@ -6,7 +6,7 @@
     <?php include '../inc.head.php';?>
 </head>
 
-<body class="vw-auto h-100 bg-yellow">
+<body class="vw-auto h-100 bg-primary">
     <?php include '../inc.header.php';?>
 
     <div class="container mt-5 mb-5 p-5 bg-white border-0 rounded">
@@ -20,14 +20,15 @@
                         <label for="fname" class="form-label">
                             Prénom
                         </label>
-                        <input type="text" class="form-control" id="fname" required>
+                        <input type="text" class="form-control" id="fname" name="fname" required>
+
                     </div>
 
                     <div class="col-md-6">
                         <label for="lname" class="form-label">
                             Nom
                         </label>
-                        <input type="text" class="form-control" id="lname" required>
+                        <input type="text" class="form-control" id="lname" name="lname" required>
                     </div>
                 </div>
 
@@ -36,14 +37,14 @@
                         <label for="email" class="form-label">
                             Adresse email
                         </label>
-                        <input type="email" class="form-control" id="email" required>
+                        <input type="email" class="form-control" id="email" name="email" required>
                     </div>
 
                     <div class="col-md-4">
                         <label for="phone" class="form-label">
                             Numéro
                         </label>
-                        <input type="text" class="form-control" id="phone">
+                        <input type="text" class="form-control" id="phone" name="phone">
                     </div>
                 </div>
 
@@ -52,13 +53,13 @@
                         <label for="message" class="form-label">
                             Message
                         </label>
-                        <textarea class="form-control" id="message" rows="3" required></textarea>
+                        <textarea class="form-control" id="message" rows="3" name="message" required></textarea>
                     </div>
 
                     <div class="col-md-12">
-                        <button type="submit" class="btn btn-primary">
-                            Envoyer
-                        </button>
+                    <button type="submit" name="submit" class="btn btn-primary">
+                    Envoyer
+                    </button>
                     </div>
                 </div>
             </form>
