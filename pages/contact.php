@@ -9,7 +9,7 @@
 <body class="vw-auto h-100 bg-primary">
     <?php include '../inc.header.php';?>
 
-    <div class="container mt-5 mb-5 p-5 bg-white border-0 rounded">
+    <div class="container mt-5 mb-5 p-5 bg-light border-0 rounded">
         <h1>Contact</h1>
         <div class="row">
 

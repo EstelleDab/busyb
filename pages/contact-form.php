@@ -29,7 +29,7 @@ $mail->setFrom($mailFrom, $fname." ".$lname);
 
 $mail->addAddress('agencebusyb@gmail.com'); 
 
-$mail->Subject = 'Message de ' .$fname." ".$lname. 'via le formulaire de contact';
+$mail->Subject = 'Message de ' .$fname." ".$lname. ' via le formulaire de contact';
 $mail->Body = "Vous avez un e-mail de " . $fname . " " . $lname . ".\n\n Numero : " . $phone . ".\n\n" . $message;
 
 
