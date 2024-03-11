@@ -14,7 +14,7 @@
 <body class="bg-primary">
 
 
-<div class="bg-white">
+<div class="bg-light">
     <div class="container rounded mt-5 mb-5 p-5">
 
         <h1 class="text-center mb-5">Notre expertise</h1>
