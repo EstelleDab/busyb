@@ -11,11 +11,11 @@
     <?php include '../inc.head.php';?>
 </head>
 
-<body class="bg-light">
-    <header class='bg-dark'>
+<body class="bg-dark">
+    
         <?php include '../inc.header.php';?>
-    </header>
-    <main>
+ 
+    <main class='bg-light'>
 
 
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
@@ -62,12 +62,10 @@
                 <div class='work'>
                 <div>
             </div>
-
-
 </main>
-<footer class='bg-dark'>
+
     <?php include '../inc.footer.php';?> 
-</footer >
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/anim.js"></script>	
