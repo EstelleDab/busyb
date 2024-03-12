@@ -61,7 +61,7 @@
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
-                            <p class="p-3">'.$data['texte'].'</div>';
+                            <p class="p-3">'.$data['texte'].'</p></div>';
                     }
                 $requete1->closeCursor();
             ?>
@@ -76,7 +76,7 @@
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
-                            <p class="p-3">'.$data['texte'].'</div>';
+                            <p class="p-3">'.$data['texte'].'</p></div>';
                     }
                 $requete2->closeCursor();
             ?>
@@ -91,7 +91,7 @@
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
-                            <p class="p-3">'.$data['texte'].'</div>';
+                            <p class="p-3">'.$data['texte'].'</p></div>';
                     }
                 $requete3->closeCursor();
             ?>
