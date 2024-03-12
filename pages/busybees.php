@@ -5,10 +5,10 @@
         <link href="../assets/css/busybees.css" rel="stylesheet">
         <?php include '../inc.head.php';?>
     </head>
-<body class="bg-light">
-    <header class='bg-dark' >
+<body class="bg-dark">
+    
     <?php include '../inc.header.php';?>
-    </header>
+   
     <main class='bg-light'>
         <h1 class='bg-dark text-primary px-5' >L'ÉQUIPE DE BUSY</h1>
         <h2 class='text-secondary px-5'>Présentation de l'équipe</h2>
