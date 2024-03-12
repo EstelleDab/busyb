@@ -1,32 +1,18 @@
 
-
-/* vignettes images portfolio */
-.image-portfolio{
-    height: auto;
-    width: 15rem;
+.conteneur-projets{
+  height: 31rem;
 }
 
-/* mise en forme des projets */
+/* Popup */
 
-.conteneur-projet{
-    display: flex;
-    flex-direction: column;
-    padding: 2em;
-}
-
-
-.conteneur-projet-colonne{
-    display: flex;
-    flex-direction: column;
-}
-
-.conteneur-projet-image-texte{
-    display: flex;
-    flex-direction: row;
-}
-
-.conteneur-projet-image-texte > p {
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+.popup {
+    width: 90%;
+    height: 30rem;
+    position: absolute;
+    top: 18rem;
+    z-index: 99;
+    background-color: #00ADB5;
+    border-radius: 2rem;
+    display: none;
+  }
 
