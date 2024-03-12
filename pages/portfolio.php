@@ -23,7 +23,7 @@
     <h1 class="bg-secondary text-primary px-5">Nos réalisations </h1>
 
 
-        <div class="conteneur-projets d-flex flex-row justify-content-center ">
+        <div class="conteneur-projets d-flex flex-row justify-content-center">
     
             <?php 
                 /* incorporation de tous les projets depuis la BDD 
@@ -40,9 +40,9 @@
                     }
                     else
                     {   // affichage de toutes les entrées de la BDD
-                        echo '<div class="conteneur-projet d-flex flex-column w-25 p-3 projet'.$data['id'].'">
+                        echo '<div class="conteneur-projet d-flex flex-column justify-content-between w-25 p-3 projet'.$data['id'].'">
                                 <h2 class="text-center">'.$data['titre'].'</h2>'
-                                .'<img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio object-fit-cover"></div>';
+                                .'<img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio object-fit-cover "></div>';
                         
                     }
                 }
