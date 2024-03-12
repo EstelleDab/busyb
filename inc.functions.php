@@ -47,11 +47,11 @@
               }
               else
               {   // affichage de toutes les entrées de la BDD
-                  echo '<div class="conteneur-annonces border border-info d-flex flex-row w-75 h-25 m-auto ">
-                  <div class="ad-card d-flex flex-column border m-2 rounded p-3 ">
-                            <span class="bg-dark text-light border rounded-pill w-25 p-1">'.$annonces['categorie'].'</span>
-                          <h2 class="text-center">'.$annonces['titre'].'</h2>
-                          <p>'.$annonces['texte'].'</p></div></div>';
+                  echo '
+                        <div class="ad-card d-flex flex-column border rounded m-auto py-2 ">
+                            <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 ">'.$annonces['categorie'].'</span>
+                            <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
+                                <p class="text-justify overflow-scroll p-3">'.$annonces['texte'].'</p></div>';
               }
           }
           // clôture de la requête
