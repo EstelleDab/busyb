@@ -14,16 +14,15 @@
     <?php include '../inc.head.php';?>
     <link href="../assets/css/portfolio.css" rel="stylesheet">
 </head>
-<body class="bg-light">
-    <header class="bg-secondary">
-        <?php include '../inc.header.php';?>
-    </header>
+<body class="bg-secondary">
+<?php include '../inc.header.php';?>
+
 
     <main>
     <h1 class="bg-secondary text-primary px-5">Nos réalisations </h1>
 
 
-        <div class="conteneur-projets d-flex flex-row justify-content-center">
+        <div class="conteneur-projets d-flex flex-row justify-content-center bg-light">
     
             <?php 
                 /* incorporation de tous les projets depuis la BDD 
@@ -99,9 +98,9 @@
         </div>
     
     </main>
-    <footer class="bg-secondary">
-        <?php include '../inc.footer.php';?>
-    </footer>
+    
+    <?php include '../inc.footer.php';?>
+
 
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>
 	<script src="../assets/js/anim.js"></script>	
