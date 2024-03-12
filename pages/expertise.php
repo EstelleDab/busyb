@@ -11,10 +11,10 @@
     <link href="../assets/css/expertise.css" rel="stylesheet">
 </head>
 
-<body class="bg-yellow">
+<body class="bg-primary">
 
 
-
+<div class="bg-light">
     <div class="container rounded mt-5 mb-5 p-5">
 
         <h1 class="text-center mb-5">Notre expertise</h1>
@@ -125,6 +125,7 @@
         </div><!-- eof parallax -->
 
     </div><!-- eof container -->
+</div><!-- eof bg-white -->
 
 
     <?php include '../inc.footer.php';?>
