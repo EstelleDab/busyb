@@ -48,7 +48,7 @@
               else
               {   // affichage de toutes les entrées de la BDD
                   echo '
-                        <div class="ad-card d-flex flex-column border rounded m-auto py-2 ">
+                        <div class="ad-card d-flex flex-column border shadow rounded m-auto py-2 ">
                             <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 ">'.$annonces['categorie'].'</span>
                             <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
                                 <p class="text-justify overflow-scroll p-3">'.$annonces['texte'].'</p></div>';
