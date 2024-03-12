@@ -160,7 +160,7 @@ h1, h2 {
     padding-top:4.5rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
-z-index: 99;
+z-index: 98;
 }
 
 .main-hex:before,
@@ -224,7 +224,7 @@ z-index: 99;
 .hex.yellow:before {
     right: 100%;
     border-right: 4.5rem solid var(--primary-color); 
-    z-index: 1;
+
 }
 
 .hex.yellow:after {
@@ -271,7 +271,6 @@ z-index: 99;
 
 span.link {
     position: absolute;
-   
     width:150%;
     margin-left:-2rem;
     margin-top:2rem;

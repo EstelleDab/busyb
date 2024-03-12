@@ -23,7 +23,14 @@ $itsthefirst=true;
 
                 $style_active=($itsthefirst) ? 'active' :'';
 
-                echo '<div class="carousel-item pt-8 '.$style_active.'"> 
+                echo ' <div class="carousel-item pt-8 '.$style_active.'"> 
+                <div class="d-flex flex-row border border-info">
+                <i class="fa-regular fa-star bg-primary"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                </div><
                 <p class="d-block m-auto text-justify text-dark">'.$data['texte'].'</p>
                 <p  class=" text- text-center m-auto text-justify text-dark">'.$data['auteur'].'</p>
                 </div>';

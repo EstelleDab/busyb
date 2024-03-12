@@ -31,11 +31,11 @@
             <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
                 <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
                     <div class="d-flex flex-row border border-info">
-                        <div class="starsone"><img class="w-75 bg-primary" src="../assets/images/travaillons/starbee.png"></div>
-                        <div class="stars two"></div>
-                        <div class="stars three"></div>
-                        <div class="stars four"></div>
-                        <div class="stars five"></div>
+                    <i class="fa-regular fa-star bg-primary"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
                     </div>
                     <?php 
                         getReviews();
