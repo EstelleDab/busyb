@@ -26,7 +26,7 @@
                     <div class='carte'>
                         <div  id='js-ama' class='carte__inner'>
                                 <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
-                                    <img src="../assets/images/amanda.jpg" alt="photo-amandine">
+                                    <img src="../assets/images/busybees/amanda.jpg" alt="photo-amandine">
                                 </div>
                                 <div class="carte__face carte__face--back d-flex flex-column align-items-center justify-content-center bg-primary">
                                     <div class='carte__content d-flex flex-column align-items-center justify-content-center '>
@@ -50,12 +50,12 @@
                     <div class='carte mt-5'>
                         <div id='js-ste' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
-                                <img src="../assets/images/estelle.jpeg" alt="photo-stella">
+                                <img src="../assets/images/busybees/estelle.jpeg" alt="photo-stella">
                             </div>
                             <div class="carte__face carte__face--back d-flex flex-column align-items-center justify-content-center bg-primary">
                                 <div class='carte__content d-flex flex-column align-items-center justify-content-center '>
                                     <div class='carte__header'>
-                                        <h3>Estelle<h3>
+                                        <h3>Stella<h3>
                                      </div>
                                     <div class='carte__body'>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
@@ -74,7 +74,7 @@
                     <div class='carte mb-5'>
                         <div id='js-fra' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
-                                <img src="../assets/images/fra.png" alt="photo-francis">
+                                <img src="../assets/images/busybees/fra.png" alt="photo-francis">
                             </div>
                             <div class="carte__face carte__face--back d-flex flex-column align-items-center justify-content-center bg-primary">
                                 <div class='carte__content d-flex flex-column align-items-center justify-content-center '>

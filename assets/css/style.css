@@ -160,7 +160,7 @@ h1, h2 {
     padding-top:4.5rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
-
+z-index: 99;
 }
 
 .main-hex:before,
