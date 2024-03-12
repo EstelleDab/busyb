@@ -10,7 +10,7 @@
     <?php include '../inc.header.php';?>
 
     <div class="container mt-5 mb-5 p-5 bg-light border-0 rounded text-center">
-        <h1>☑️ Mesage envoyé, merci !</h1>        
+        <h1>Message envoyé, merci !</h1>        
     </div>
 
 
