@@ -19,34 +19,21 @@
 
 
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
+    <section id='ads '>
+        <h2 class="px-5">Nous recherchons...</h2>
+        <div class="ad-container d-flex flex-row flex-wrap m-auto mt-5">
+            <?php 
+                getAds();
+            ?>
+        </div>
+        </section><!--eof ads-->
         <section id='avis' class='bg-light'>
             <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
                 <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
-                    <?php getReviews();
-                  
+                    <?php 
+                        getReviews();
                     ?>
-                   <!-- <div class="carousel-item pt-8 active "> 
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. BOUDY  viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div>
-                     <div class="carousel-item pt-8">
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div>
-                    <div class="carousel-item pt-8">
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div> -->
-                </div><!--eof avis--> 
+                </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
@@ -65,6 +52,7 @@
 </main>
 
     <?php include '../inc.footer.php';?> 
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>

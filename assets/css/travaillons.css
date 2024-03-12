@@ -11,8 +11,17 @@
 
 
 .carousel-item p {
-   
-   
     width:60%;
     height:100%; 
+}
+.ad-container {
+    height: 100vh;
+    width: 50vw;
+ 
+   
+}
+.ad-card {
+height:45%;
+width:48%;
+
 }

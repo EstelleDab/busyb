@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
-	<head>
+	
 		<title>Busy B Agence Digitale</title> 
 		<?php include 'inc.head.php';?>
-	</head>
+	
 <body>
 
 	<h1 class='visually-hidden'>Agence Digitale Busy B</h1> <!--visible par les robots-->
