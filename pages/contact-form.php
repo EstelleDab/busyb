@@ -40,6 +40,6 @@ try {
     echo "Message non envoyé. Mailer Error: {$mail->ErrorInfo}";
 }
 
-header("Location: sent.html");
+header("Location: sent.php");
 
 ?>
