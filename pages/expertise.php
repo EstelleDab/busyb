@@ -126,7 +126,6 @@
 
     </div><!-- eof container -->
 
-
     <?php include '../inc.footer.php';?>
 </body>
 

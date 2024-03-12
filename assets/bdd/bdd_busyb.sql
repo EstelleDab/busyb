@@ -42,18 +42,14 @@ CREATE TABLE `annonces` (
 
 INSERT INTO `annonces` (`id`, `categorie`, `titre`, `texte`) VALUES
 (1, 'CDD', 'concepteur/rédacteur web', 'Nous cherchons un(e) concepteur/trice, rédacteur/rice web pour créer des contenus engageants. Votre plume et votre créativité contribueront à valoriser l’identité de nos clients et à engager leur audience.
-Compétences :
-    Rédaction web optimisée SEO
-    Création de contenus variés (articles, landing pages, newsletters)
-    Bonne compréhension des enjeux marketing
-Type de mission : freelance'), 
+'), 
 
 (2, 'stage', 'Développeur(euse) Web Front\-End', 'De formation Web, à la recherche d\'un stage de fin d\'étude vous connaissez toutes les étapes de la réalisation d’une interface riche. 
-
 Rattaché(e) à l’équipe technique, vous participerez aux projets de développement de sites internet / intranet ou d’applications web sur des CMS Open Source : Drupal, WordPress et Automne CMS.
-Vous serez très apprécié(e) pour votre maîtrise technique, votre curiosité, votre rigueur et votre autonomie.
+Vous serez très apprécié(e) pour votre maîtrise technique, votre curiosité, votre rigueur et votre autonomie.Si vous êtes passionné(e) par le développement web et que vous voulez relever des challenges techniques proposés par des projets complexes et ambitieux, alors ce stage est fait pour vous'),
 
-Si vous êtes passionné(e) par le développement web et que vous voulez relever des challenges techniques proposés par des projets complexes et ambitieux, alors ce stage est fait pour vous');
+(3, 'stage', 'Community Manager', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme');
 --
 -- Table structure for table `avis`
 --
@@ -71,10 +67,10 @@ CREATE TABLE `avis` (
 --
 
 INSERT INTO `avis` (`id`, `auteur`, `date`, `note`, `texte`) VALUES
-(1, 'Mickeline', '2024-03-07', 5, 'Vraiment quel plaisir de travailler avec BusyB ! Ces gens sont des professionnels, ça se voit jusque dans les plus petits détails'),
+(1, 'Mickeline', '2024-03-07', 5, 'Vraiment quel plaisir de travailler avec BusyB ! Ces gens sont des professionnels, ça se voit jusque dans les plus petits détails.'),
 (2, 'John-Jacques', '2024-02-13', 4, 'Du beau travail. Site stylé et fonctionnel. Equipe efficace et à l\'écoute.\r\nJ\'enlève tout de même une étoile car ils ne livrent pas le café.'),
 (3, 'José', '2024-01-03', 5, 'Nous avons confié la réalisation du site de notre entreprise à Amandine et son équipe et le résultat est vraiment impeccable. Une équipe réactive et sympathique.'),
-(4, 'Cunégonde', '2023-11-25', 5, 'Professionalisme et expertise au rendez-vous. Les délais ont été respectés et le produit fini est au delà de nos attentes. Ce fut un plaisir de travailler avec BusyB'); 
+(4, 'Cunégonde', '2023-11-25', 5, 'Professionalisme et expertise au rendez-vous. Les délais ont été respectés et le produit fini est au delà de nos attentes. Ce fut un plaisir de travailler avec BusyB.'); 
 --------------------------------------------------------
 --
 -- Table structure for table `realisations`

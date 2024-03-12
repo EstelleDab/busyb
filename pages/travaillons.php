@@ -23,29 +23,7 @@
             <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
                 <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
                     <?php getReviews();
-                  
                     ?>
-                   <!-- <div class="carousel-item pt-8 active "> 
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. BOUDY  viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div>
-                     <div class="carousel-item pt-8">
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div>
-                    <div class="carousel-item pt-8">
-                        <p class='d-block m-auto text-justify text-dark'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                        labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                        Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                        Felis eget nunc lobortis mattis. 
-                        </p>
-                    </div> -->
                 </div><!--eof avis--> 
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
@@ -59,11 +37,15 @@
         </section>
         <section id='ads'>
             <div class='works d-flex flex-column'>
-                <div class='work'>
-                <div>
-            </div>
 
+            <?php 
+         getAds();
+            ?>
+        </div>
 
+      
+
+            
 </main>
 <footer class='bg-dark'>
     <?php include '../inc.footer.php';?> 
