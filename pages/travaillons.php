@@ -36,12 +36,10 @@
     <section id='avis' class='bg-light'>
         <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
         
-            <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">  
-            <?php 
+            <div class="carousel-inner d-block justify-content-between align-items-center m-auto w-50 h-100 bg-secondary ">  
+                <?php 
                 getReviews();
                 ?>
-             
-              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>

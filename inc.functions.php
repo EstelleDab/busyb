@@ -25,26 +25,24 @@ $itsthefirst=true;
                 
                
                 echo '
-                            <div class="carousel-item pt-8 '.$style_active.'"> 
-                                <div id="'.$data['note'].'" class="rating d-flex flex-row justify-content-center align-items-center border border-color    ">
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
+                            <div class="carousel-item pt-5 '.$style_active.'"> 
+                                <div class="rating-'.$data['note'].' d-flex flex-row justify-content-center align-items-center">
+                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
+                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
+                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
+                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
+                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
                                 </div> 
-                                <p class="d-block m-auto text-justify text-dark">'.$data['texte'].'</p>
+                                <p class="d-block pt-4 m-auto text-justify text-dark">'.$data['texte'].'</p>
                                 <p  class="text-center m-auto text-justify text-primary">'.$data['auteur'].'</p>
                             </div> 
-                            </div>
+            
                          ';
                 $itsthefirst=false;
            }
-          
         }
 
         $requete->closeCursor();  // clôture de la requête
-               
 
                     }
      
