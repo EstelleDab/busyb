@@ -33,3 +33,12 @@ width:48%;
 .fa-star {
     color: lightblue;
 }
+
+#1 i:nth-child(1){
+    color: yellow;
+
+}
+
+#5 i {
+    color: yellow;
+}

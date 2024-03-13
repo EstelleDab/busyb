@@ -26,8 +26,8 @@ $(document).ready(function () {
     })
 
 // rating 
-$('#plop').on('click', function (){
-    $('i:lt(4)').css('color', 'var(primary-color)');
+$("i").on("click" , function (){
+    $("i:lt(3)").css("color", "var(--primary-color)");
 });
 
 

@@ -1,6 +1,7 @@
 <?php
     include '../inc.connexion.php';
     include '../inc.functions.php';
+    
 ?>
 
 <!DOCTYPE html>
@@ -34,18 +35,13 @@
     
     <section id='avis' class='bg-light'>
         <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
+        
             <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">  
-                <div id="plop" class="d-flex flex-row justify-content-center align-items-center border border-info">
-                <i class="fa-solid fa-star 1"></i>
-                <i class="fa-solid fa-star 2"></i>
-                <i class="fa-solid fa-star 3"></i>
-                <i class="fa-solid fa-star 4"></i>
-                <i class="fa-solid fa-star 5"></i>
-            
-            </div>
-                <?php 
+            <?php 
                 getReviews();
                 ?>
+             
+              
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
@@ -64,4 +60,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/anim.js"></script>	
+    <script src="../assets/js/rating.js"></script>	
 </body>
