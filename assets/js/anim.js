@@ -25,6 +25,11 @@ $(document).ready(function () {
     $('#'+mycard).toggleClass('is-flipped');
     })
 
+// rating 
+$('#plop').on('click', function (){
+    $('i:lt(4)').css('color', 'var(primary-color)');
+});
+
 
     // popup 1
 

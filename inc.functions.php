@@ -5,7 +5,7 @@
     function getReviews() {
         global $bdd; 
     
-    $requete = $bdd->query('SELECT texte, auteur FROM avis');
+    $requete = $bdd->query('SELECT texte, auteur, note FROM avis');
     $requete->execute();
 
    
@@ -22,15 +22,10 @@ $itsthefirst=true;
             else {
 
                 $style_active=($itsthefirst) ? 'active' :'';
+                $note=$data['note'];
 
-                echo ' <div class="carousel-item pt-8 '.$style_active.'"> 
-                <div class="d-flex flex-row border border-info">
-                <i class="fa-regular fa-star bg-primary"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                <i class="fa-regular fa-star"></i>
-                </div><
+                echo '<div class="carousel-item pt-8 '.$style_active.'"> 
+               
                 <p class="d-block m-auto text-justify text-dark">'.$data['texte'].'</p>
                 <p  class=" text- text-center m-auto text-justify text-dark">'.$data['auteur'].'</p>
                 </div>';
@@ -79,7 +74,7 @@ $itsthefirst=true;
                         <div class="ad-card d-flex flex-column border shadow rounded m-auto py-2 ">
                             <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 ">'.$annonces['categorie'].'</span>
                             <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
-                                <p class="text-justify overflow-scroll p-3">'.$annonces['texte'].'</p></div>';
+                                <p class="text-justify p-3">'.$annonces['texte'].'</p></div>';
               }
           }
           // clôture de la requête

@@ -25,3 +25,11 @@ height:45%;
 width:48%;
 
 }
+
+.ad-card p {
+    overflow: scroll;
+}
+
+.fa-star {
+    color: lightblue;
+}

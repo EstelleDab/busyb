@@ -8,6 +8,9 @@
 <head>
     <title>Travaillons Ensemble</title>
     <link href="../assets/css/travaillons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?php include '../inc.head.php';?>
 </head>
 
@@ -22,45 +25,42 @@
     <section id='ads '>
         <h2 class="px-5">Nous recherchons...</h2>
         <div class="ad-container d-flex flex-row flex-wrap m-auto mt-5">
+        
             <?php 
                 getAds();
             ?>
         </div>
         </section><!--eof ads-->
-        <section id='avis' class='bg-light'>
-            <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
-                <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">
-                    <div class="d-flex flex-row border border-info">
-                    <i class="fa-regular fa-star bg-primary"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    <i class="fa-regular fa-star"></i>
-                    </div>
-                    <?php 
-                        getReviews();
-                    ?>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next " type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn btn-secondary" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div><!--eof carousel-->
-        </section>
-        <section id='ads'>
-            <div class='works d-flex flex-column'>
-                <div class='work'>
-                <div>
+    
+    <section id='avis' class='bg-light'>
+        <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
+            <div class="carousel-inner align-items-center m-auto w-50 h-100 bg-secondary ">  
+                <div id="plop" class="d-flex flex-row justify-content-center align-items-center border border-info">
+                <i class="fa-solid fa-star 1"></i>
+                <i class="fa-solid fa-star 2"></i>
+                <i class="fa-solid fa-star 3"></i>
+                <i class="fa-solid fa-star 4"></i>
+                <i class="fa-solid fa-star 5"></i>
+            
             </div>
+                <?php 
+                getReviews();
+                ?>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon btn btn-secondary" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next " type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon btn btn-secondary" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div><!--eof carousel-->
+    </section>
+    
 </main>
 
     <?php include '../inc.footer.php';?> 
-
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <script src="../assets/libraries/jquery-3.7.1.min.js"></script>
     <script src="../assets/js/anim.js"></script>	

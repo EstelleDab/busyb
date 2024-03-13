@@ -126,7 +126,6 @@ h1, h2 {
     font-size: 1.5rem;
 }
 
-
 .hex-button{
     animation : zoomout 2s;
     transition: ease-in;
@@ -160,7 +159,8 @@ h1, h2 {
     padding-top:4.5rem;
     -webkit-filter: drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
-z-index: 98;
+    z-index: 98;
+
 }
 
 .main-hex:before,
@@ -188,9 +188,6 @@ z-index: 98;
     background-color: var(--secondary-color);
     color: var(--black-color);
 }
-
-
-
 
 
 /*le menu hexagone*/
@@ -271,6 +268,7 @@ z-index: 98;
 
 span.link {
     position: absolute;
+   
     width:150%;
     margin-left:-2rem;
     margin-top:2rem;
