@@ -9,23 +9,19 @@
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="../assets/css/expertise.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body class="bg-primary">
 
 
 <div class="bg-light">
-    <div class="container rounded mt-5 mb-5 p-5">
+<h1 class="bg-primary text-dark px-5">Notre expertise</h1>
+<h2 class='text-secondary px-5'>Faites le buzz avec Busy B</h2>
+<div class='d-flex flex-column justify-content-start'>
+            <div class='px-5'>
 
-        <h1 class="text-center mb-5">Notre expertise</h1>
-
-        <div class="parallax p-5 rounded">
-
-
-            <div class="card mb-5 border-0 text-center">
-                <div class="card-body p-3">
-                <h2 class="p-2">Faites le buzz avec Busy B !</h2>
-                <p>Busy B, c'est votre partenaire privilégié dans le monde numérique en constante
+<p>Busy B, c'est votre partenaire privilégié dans le monde numérique en constante
                     évolution. En tant
                     qu'agence web avant-gardiste, Busy B s'engage à offrir des solutions innovantes et personnalisées
                     pour répondre à vos besoins numériques les plus exigeants. Que vous aspiriez à une présence en ligne
@@ -33,11 +29,18 @@
                     équipe dévouée allie expertise technique et créativité pour concrétiser vos ambitions. Explorez
                     notre gamme complète de services et découvrez comment Busy B peut transformer vos idées en réalité
                     numérique, propulsant votre entreprise vers de nouveaux sommets dans le paysage digital.</p>
-                </div>
+
             </div>
+        </div>
+
+    <div class="container rounded p-5">
 
 
-            <div class="card-deck"><!-- 1ère ligne -->
+        <div class="parallax p-5 rounded">
+
+
+
+            <div class="card-deck" data-aos="fade-right" data-aos-delay="1500" data-aos-duration="1000"><!-- 1ère ligne -->
                 <div class="card text-center border-0">
                     <div class="card-body">
                         <i class="fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
@@ -66,7 +69,7 @@
                 </div><!-- eof card -->
             </div><!-- eof card-deck -->
 
-            <div class="card-deck mt-4"><!-- 2ème ligne -->
+            <div class="card-deck mt-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000"><!-- 2ème ligne -->
                 <div class="card text-center border-0">
                     <div class="card-body">
                         <i class="fa-solid fa-search fa-3x mb-3"></i><!--icone-->
@@ -96,7 +99,7 @@
 
             </div><!-- eof card-deck -->
 
-            <div class="card-deck mt-4"><!-- 3ème ligne -->
+            <div class="card-deck mt-4" data-aos="fade-right" data-aos-delay="1000" data-aos-duration="1000"><!-- 3ème ligne -->
             <div class="card text-center border-0">
                 <div class="card-body">
                     <i class="fa-solid fa-code fa-3x mb-3"></i><!--icone-->
@@ -128,6 +131,10 @@
 </div><!-- eof bg-white -->
 
     <?php include '../inc.footer.php';?>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
 </body>
 
 </html>
