@@ -23,13 +23,18 @@
     <h1 class="bg-secondary text-primary px-5">Nos réalisations </h1>
 
 
+<<<<<<< Updated upstream
         <div class="conteneur-projets d-flex flex-row justify-content-center ">
+=======
+        <div class="container-fluid bg-light">
+            <div class="d-flex flex-row justify-content-center flex-wrap">
+>>>>>>> Stashed changes
     
             <?php 
                 /* incorporation de tous les projets depuis la BDD 
                 **************************************************/
                 // requête avec tri par date descendante
-                $requete = $bdd->query('SELECT id, titre, date, image, texte FROM realisations ORDER BY date DESC LIMIT 0,3');
+                $requete = $bdd->query('SELECT id, titre, date, image, texte FROM realisations ORDER BY date DESC LIMIT 0,4');
                 
                 // boucle while pour afficher toutes les entrées
                 while ($data = $requete->fetch()){
@@ -40,63 +45,132 @@
                     }
                     else
                     {   // affichage de toutes les entrées de la BDD
+<<<<<<< Updated upstream
                         echo '<div class="conteneur-projet d-flex flex-column w-25 p-3 projet'.$data['id'].'">
                                 <h2 class="text-center">'.$data['titre'].'</h2>'
                                 .'<img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio object-fit-cover"></div>';
                         
+=======
+                        echo '<div class="col-md-4 m-3 bg-secondary-subtle rounded projet'.$data['id'].'">
+                                <div class="d-flex flex-column p-3"> 
+                                    <img src="../assets/images/portfolio/'.$data['image'].'" class="mb-0 rounded object-fit-cover">
+                                    <h2 class="text-center">'.$data['titre'].'</h2>
+                                </div>
+                            </div>';
+>>>>>>> Stashed changes
                     }
                 }
                 // clôture de la requête
                 $requete->closeCursor();
             ?>
+            </div>
         </div>
 
         <!-- popups contenant les infos détaillées de chaque projet -->
         <!--projet 1-->
-        <div class="popup popup1 mx-5">
+        <div class="popup popup1">
+            <div class="d-flex flex-wrap justify-content-center mx-auto">
             <?php
                 $requete1 = $bdd->query('SELECT id, titre, date, image, texte FROM realisations WHERE id="1"');     
                 while ($data = $requete1->fetch()){
+<<<<<<< Updated upstream
                     echo '<div class="d-flex flex-column w-75 p-3">
                             <h2>'.$data['titre'].'</h2>
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
                             <p class="p-3">'.$data['texte'].'</div>';
+=======
+                    echo '<div class="d-flex flex-column col-md-5 p-3 m-3 bg-secondary-subtle rounded">
+                            <h2 class="text-center">'.$data['titre'].'</h2>
+                            <p class="text-center">'.$data['date'].'</p>
+                            <img src="../assets/images/portfolio/'.$data['image'].'" class="img-fluid object-fit-cover rounded">
+                        </div>
+                        <div class="d-flex col-md-5 p-3 m-3 align-items-center bg-secondary-subtle rounded">
+                            <p>'.$data['texte'].'</p>
+                        </div>';
+>>>>>>> Stashed changes
                     }
                 $requete1->closeCursor();
             ?>
+            </div>
         </div>
         <!--projet 2-->
-        <div class="popup popup2 mx-5">
+        <div class="popup popup2">
+            <div class="d-flex flex-wrap justify-content-center mx-auto">
             <?php
                 $requete2 = $bdd->query('SELECT id, titre, date, image, texte FROM realisations WHERE id="2"');     
                 while ($data = $requete2->fetch()){
+<<<<<<< Updated upstream
                     echo '<div class="d-flex flex-column w-75 p-3">
                             <h2>'.$data['titre'].'</h2>
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
                             <p class="p-3">'.$data['texte'].'</div>';
+=======
+                    echo '<div class="d-flex flex-column col-md-5 p-3 m-3 bg-secondary-subtle rounded">
+                            <h2 class="text-center">'.$data['titre'].'</h2>
+                            <p class="text-center">'.$data['date'].'</p>
+                            <img src="../assets/images/portfolio/'.$data['image'].'" class="img-fluid object-fit-cover rounded">
+                        </div>
+                        <div class="d-flex col-md-5 p-3 m-3 align-items-center bg-secondary-subtle rounded">
+                            <p>'.$data['texte'].'</p>
+                        </div>';
+>>>>>>> Stashed changes
                     }
                 $requete2->closeCursor();
             ?>
+            </div>
         </div>
         <!--projet 3-->
-        <div class="popup popup3 mx-5">
+        <div class="popup popup3">
+            <div class="d-flex flex-wrap justify-content-center mx-auto">
             <?php
                 $requete3 = $bdd->query('SELECT id, titre, date, image, texte FROM realisations WHERE id="3"');     
                 while ($data = $requete3->fetch()){
+<<<<<<< Updated upstream
                     echo '<div class="d-flex flex-column w-75 p-3">
                             <h2>'.$data['titre'].'</h2>
                             <p>'.$data['date'].'</p></div>
                         <div class="d-flex flex-row p-3">
                             <img src="../assets/images/portfolio/'.$data['image'].'" class="image-portfolio w-75 object-fit-cover">
                             <p class="p-3">'.$data['texte'].'</div>';
+=======
+                    echo '<div class="d-flex flex-column col-md-5 p-3 m-3 bg-secondary-subtle rounded">
+                            <h2 class="text-center">'.$data['titre'].'</h2>
+                            <p class="text-center">'.$data['date'].'</p>
+                            <img src="../assets/images/portfolio/'.$data['image'].'" class="img-fluid object-fit-cover rounded">
+                        </div>
+                        <div class="d-flex col-md-5 p-3 m-3 align-items-center bg-secondary-subtle rounded">
+                            <p>'.$data['texte'].'</p>
+                        </div>';
+>>>>>>> Stashed changes
                     }
                 $requete3->closeCursor();
             ?>
+            </div>
         </div>
+        <!--projet 4-->
+        <div class="popup popup4">
+            <div class="d-flex flex-wrap justify-content-center mx-auto">
+            <?php
+                $requete4 = $bdd->query('SELECT id, titre, date, image, texte FROM realisations WHERE id="4"');     
+                while ($data = $requete4->fetch()){
+                    echo '<div class="d-flex flex-column col-md-5 p-3 m-3 bg-secondary-subtle rounded">
+                            <h2 class="text-center">'.$data['titre'].'</h2>
+                            <p class="text-center">'.$data['date'].'</p>
+                            <img src="../assets/images/portfolio/'.$data['image'].'" class="img-fluid object-fit-cover rounded">
+                        </div>
+                        <div class="d-flex col-md-5 p-3 m-3 align-items-center bg-secondary-subtle rounded">
+                            <p>'.$data['texte'].'</p>
+                        </div>';
+                    }
+                $requete4->closeCursor();
+            ?>
+            </div>
+        </div>
+       
     
     </main>
     <footer class="bg-secondary">

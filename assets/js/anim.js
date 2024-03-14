@@ -28,46 +28,63 @@ $(document).ready(function () {
 
     // popup 1
 
-    $(".projet1").on("click", function () {
-        popup1(); // Appelle la fonction popup
-    })
+        $(".projet1").on("click", function () {
+            popup1(); // Appelle la fonction popup
+        })
 
-    function popup1() {
-        $(".popup1").toggle(); // pour ouvrir le popup
-    }
- 
-    $(".popup1").on("click", function () {   // Pour fermer le popup
-        $(".popup1").toggle();
-        clear();
-    })
+        function popup1() {
+            $(".popup1").toggle(); // pour ouvrir le popup
+        }
+    
+        $(".popup1").on("click", function () {   // Pour fermer le popup
+            $(".popup1").toggle();
+            clear();
+        })
 
     // popup 2
 
-    $(".projet2").on("click", function () {
-        popup2(); // Appelle la fonction popup
-    })
+        $(".projet2").on("click", function () {
+            popup2(); // Appelle la fonction popup
+        })
 
-    function popup2() {
-        $(".popup2").toggle(); // pour ouvrir le popup
-    }
- 
-    $(".popup2").on("click", function () {   // Pour fermer le popup
-        $(".popup2").toggle();
-        clear();
-    })
+        function popup2() {
+            $(".popup2").toggle(); // pour ouvrir le popup
+        }
+    
+        $(".popup2").on("click", function () {   // Pour fermer le popup
+            $(".popup2").toggle();
+            clear();
+        })
 
     // popup 3
 
-    $(".projet3").on("click", function () {
-        popup3(); // Appelle la fonction popup
-    })
+        $(".projet3").on("click", function () {
+            popup3(); // Appelle la fonction popup
+        })
 
-    function popup3() {
-        $(".popup3").toggle(); // pour ouvrir le popup
-    }
- 
-    $(".popup3").on("click", function () {   // Pour fermer le popup
-        $(".popup3").toggle();
-        clear();
-    })
+        function popup3() {
+            $(".popup3").toggle(); // pour ouvrir le popup
+        }
+    
+        $(".popup3").on("click", function () {   // Pour fermer le popup
+            $(".popup3").toggle();
+            clear();
+        })
+
+    // popup 4
+
+        $(".projet4").on("click", function () {
+            popup4(); // Appelle la fonction popup
+        })
+
+        function popup4() {
+            $(".popup4").toggle(); // pour ouvrir le popup
+        }
+
+        $(".popup4").on("click", function () {   // Pour fermer le popup
+            $(".popup4").toggle();
+            clear();
+        })
+
+    
 });
