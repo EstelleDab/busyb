@@ -148,9 +148,10 @@ h1, h2 {
 /*positionnement abeille*/ 
 
 .main-hex img {
-    width: 100%;
+    width: 200%;
     position : relative;
     bottom: 2rem;
+    left : -4.5rem;
 }
 
 .main-hex {
