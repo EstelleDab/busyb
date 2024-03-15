@@ -139,7 +139,7 @@ h1, h2 {
     }
 
     100% {
-        transform: scale(0.5);
+        transform: scale(1);
     }
   }
 

@@ -19,10 +19,11 @@
 
 
     <main>
-    <h1 class="bg-secondary text-primary px-5">NOS RÉALISATIONS</h1>
-
-    <p class="px-5">Quelques exemples du travail qualitatif commis par nos équipes ces derniers temps.</p>
-
+    <div class="bg-light pb-5">
+        
+        <h1 class="bg-secondary text-primary px-5">NOS RÉALISATIONS</h1>
+        <h2 class="text-secondary px-5 pt-1">Quelques exemples de notre travail hautement qualitatif :</h2>
+    </div>
 
         <div class="container-fluid bg-light">
             <div class="d-flex flex-row justify-content-center flex-wrap">
