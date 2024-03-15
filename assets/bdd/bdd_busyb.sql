@@ -58,7 +58,7 @@ CREATE TABLE `avis` (
   `id` int(11) NOT NULL,
   `auteur` varchar(50) NOT NULL,
   `date` date NOT NULL,
-  `note` int(1) NOT NULL,
+  `note` int(5) NOT NULL,
   `texte` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
@@ -70,8 +70,8 @@ INSERT INTO `avis` (`id`, `auteur`, `date`, `note`, `texte`) VALUES
 (1, 'Mickeline', '2024-03-07', 5, 'Vraiment quel plaisir de travailler avec BusyB ! Ces gens sont des professionnels, ça se voit jusque dans les plus petits détails.'),
 (2, 'John-Jacques', '2024-02-13', 4, 'Du beau travail. Site stylé et fonctionnel. Equipe efficace et à l\'écoute.\r\nJ\'enlève tout de même une étoile car ils ne livrent pas le café.'),
 (3, 'José', '2024-01-03', 5, 'Nous avons confié la réalisation du site de notre entreprise à Amandine et son équipe et le résultat est vraiment impeccable. Une équipe réactive et sympathique.'),
-(4, 'Cunégonde', '2023-11-25', 5, 'Professionalisme et expertise au rendez-vous. Les délais ont été respectés et le produit fini est au delà de nos attentes. Ce fut un plaisir de travailler avec BusyB.'); 
-
+(4, 'Cunégonde', '2023-11-25', 5, 'Professionalisme et expertise au rendez-vous. Les délais ont été respectés et le produit fini est au delà de nos attentes. Ce fut un plaisir de travailler avec BusyB.'),
+(5, 'Jean-Mich', '2023-03-14', 2, 'je mets 2 pour montrer comment leur gestion des étoiles sur les notes de leurs avis est au top !');
 --
 -- Table structure for table `realisations`
 --

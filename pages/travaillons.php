@@ -25,8 +25,7 @@
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
     <section id='ads '>
         <h2 class="px-5">Nous recherchons...</h2>
-        <div class="ad-container d-flex flex-row flex-wrap m-auto mt-5">
-        
+        <div class="ad-container container d-flex flex-row flex-wrap m-auto mt-5">
             <?php 
                 getAds();
             ?>
@@ -34,9 +33,8 @@
         </section><!--eof ads-->
     
     <section id='avis' class='bg-light'>
-        <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto w-50" data-bs-ride="carousel">
-        
-            <div class="carousel-inner d-block justify-content-between align-items-center m-auto w-50 h-100 bg-secondary ">  
+        <div id="myCarousel" class="pt-2 pb-2 carousel slide  m-auto " data-bs-ride="carousel">
+            <div class="carousel-inner d-flex justify-content-between align-items-center m-auto bg-secondary ">  
                 <?php 
                 getReviews();
                 ?>

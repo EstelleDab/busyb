@@ -1,10 +1,11 @@
 .carousel {
     height: 45vh;
+    max-width: 50%;
 }
 
 .carousel-inner { 
     position: relative;
-    width: 100%;
+    max-width: 50%;
     height:100%;
     clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); 
 }
@@ -14,6 +15,19 @@
     width:60%;
     height:100%; 
 }
+
+@media (max-width:30rem) {
+.carousel {
+    max-width: 100%;
+}
+.carousel-inner { 
+    position: relative;
+    max-width: 100%;
+    height:100%;
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%); 
+}
+}
+  
 .ad-container {
     height: 100vh;
     width: 50vw;
@@ -30,20 +44,43 @@ width:48%;
     overflow: scroll;
 }
 
-
-
 .fa-star {
     font-size:2rem;
 }
-
+/*
 .rating-5  {
     color: var(--primary-color);
-
 }
 
-i:nth-child(1),
-i:nth-child(2),
-i:nth-child(3),
-i:nth-child(4).rating-4 {
+.rating-4 i:nth-child(1),
+.rating-4 i:nth-child(2),
+.rating-4 i:nth-child(3),
+.rating-4 i:nth-child(4)
+ {
     color: var(--primary-color);
+}
+
+.rating-3 i:nth-child(1),
+.rating-3 i:nth-child(2),
+.rating-3 i:nth-child(3) {
+    color: var(--primary-color);
+}
+
+
+.rating-2 i:nth-child(1),
+.rating-2 i:nth-child(2){
+    color: var(--primary-color);
+}
+
+.rating-1 i:nth-child(1)
+ {
+    color: var(--primary-color);
+}
+*/
+.on {
+    color: var(--primary-color);
+}
+
+.off {
+    color: var(--black-color);
 }

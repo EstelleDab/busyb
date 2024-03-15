@@ -23,21 +23,26 @@ $itsthefirst=true;
 
                 $style_active=($itsthefirst) ? 'active' :'';
                 
-               
-                echo '
-                            <div class="carousel-item pt-5 '.$style_active.'"> 
-                                <div class="rating-'.$data['note'].' d-flex flex-row justify-content-center align-items-center">
-                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
-                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
-                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
-                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
-                                    <i class="fa-solid fa-star rating-'.$data['note'].' "></i>
-                                </div> 
-                                <p class="d-block pt-4 m-auto text-justify text-dark">'.$data['texte'].'</p>
-                                <p  class="text-center m-auto text-justify text-primary">'.$data['auteur'].'</p>
-                            </div> 
-            
-                         ';
+               $status='';
+               echo '
+                <div class="carousel-item pt-5 '.$style_active.'"> 
+                <div class="rating-'.$data['note'].' d-flex flex-row justify-content-center align-items-center">'; 
+
+                for($i=0; $i<5; $i++) {
+                    if($i>=$data['note']){
+                       $status= 'off';
+                    }
+                    else{
+                        $status='on'; 
+                    }
+
+                   echo' <i class="fa-solid fa-star '.$status.' "></i>';
+                }
+                    
+                echo'  </div> 
+                    <p class="d-block pt-4 m-auto text-justify text-dark">'.$data['texte'].'</p>
+                    <p  class="text-center m-auto text-justify text-primary">'.$data['auteur'].'</p>
+                    </div> ';
                 $itsthefirst=false;
            }
         }
@@ -47,18 +52,7 @@ $itsthefirst=true;
                     }
      
             
-                  
             
-                
-                
-            
- 
-         
-        
-       
-        
-            
-        
        
        function getAds() {
 
