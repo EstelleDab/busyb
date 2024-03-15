@@ -20,7 +20,7 @@
     </header>
 
     <main>
-    <h1 class="bg-secondary text-primary px-5">Nos réalisations </h1>
+    <h1 class="bg-secondary text-primary px-5">NOS RÉALISATIONS</h1>
 
 
         <div class="container-fluid bg-light">

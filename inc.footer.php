@@ -1,20 +1,8 @@
 <footer class="h-25 text-tertiary bottom bg-transparent ">
-<<<<<<< Updated upstream
-    <div class=" h-75 mb-0 bg-transparent d-flex flex-row justify-content-center align-items-center">
-      	<div class= " d-flex flex-row ">
-          <div class= "px-4">
-            <p class="footer-text" >Politique de confidentialité</p>
-          </div>
-
-          	<div class= "px-3">
-        		<p class="footer-text text-info px-5">Mentions Légales</p>
-			</div>
-=======
     <div class="m-3 bg-transparent d-flex flex-row flex-wrap justify-content-around align-items-center">
       	<div class= "d-flex flex-row flex-shrink-1">
 			<a class="m-3 footer-text text-info text-center text-decoration-none" href="#">Politique de confidentialité</a>
 			<a class="m-3 footer-text text-info px-5 text-center text-decoration-none" href="#">Mentions Légales</a>
->>>>>>> Stashed changes
     	</div>
 
         <!-- Footer RS -->
