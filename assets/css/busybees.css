@@ -6,7 +6,6 @@
     margin-bottom: 15rem!important;
 }
 
-
 .hexaline {
     width: 100%;
     height: 100%;
@@ -31,7 +30,6 @@
 
 .carte__inner.is-flipped {
     transform: rotateY(180deg);
-    
 }
 
 .carte__face {

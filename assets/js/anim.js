@@ -26,6 +26,8 @@ $(document).ready(function () {
     })
 
 
+
+
     // popup 1
 
         $(".projet1").on("click", function () {
