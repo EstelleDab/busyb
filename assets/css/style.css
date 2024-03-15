@@ -6,58 +6,29 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'Consola Mono Book';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Consola Mono Book'), url('ConsolaMono-Book.woff') format('woff');
-}
 
-@font-face {
-    font-family: 'Consola Mono Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Consola Mono Bold'), url('ConsolaMono-Bold.woff') format('woff');
-}
 
-@font-face {
-    font-family: 'Nonchalance Regular';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Nonchalance Regular'), url('Nonchalance Regular.woff') format('woff');
-}
+  @font-face {
+    font-family: "Consola Mono Book";
+    src: 
+      url("../fonts/ConsolaMono-Book.woff");
+    font-weight: bold;
+  }
 
-@font-face {
-    font-family: 'Nonchalance Medium';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Nonchalance Medium'), url('Nonchalance Medium.woff') format('woff');
-}
+  @font-face {
+    font-family: "Nonchalance Bold";
+    src: 
+      url("../fonts/Nonchalance Bold.woff");
+    font-weight: bold;
+  }
 
-@font-face {
-    font-family: 'Nonchalance Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Nonchalance Bold'), url('Nonchalance Bold.woff') format('woff');
-}
 
-@font-face {
-    font-family: 'Poppins Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Poppins Bold'), url('Poppins-Bold.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'Poppins';
-    src: local('Poppins Regular')
-    url('/assets/fonts/Poppins-Regular.woff2') format('woff2'),
-        url('/assets/fonts/Poppins-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
+  @font-face {
+    font-family: "Poppins";
+    src: 
+      url("../fonts/Poppins-Regular.woff");
+    font-weight: regular;
+  }
 
 :root {
     --primary-color: #FFBB1C;
@@ -65,9 +36,9 @@
     --tertiary-color: #EF566A;
     --black-color: #2B2B2B;
     --white-color: #fafafa;
-    --primary-font: 'Consola Mono Bold', Arial, sans-serif;
-    --secondary-font: 'Poppins', Arial, sans-serif;
-    --tertiary-font: 'Nonchalance Bold', sans-serif;
+    --primary-font: "Consola Mono Bold", Arial, sans-serif!important;
+    --secondary-font: "Poppins", Arial, sans-serif;
+    --tertiary-font: "Nonchalance Bold", sans-serif!important;
 }
 /*
 .text-primary {
@@ -95,6 +66,7 @@ html {
 body {
     height:100%;
     animation: fadein 3s; 
+    font-family: var(--tertiary-font)!important;
 }
     @keyframes fadein {
         0% {
