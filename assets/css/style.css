@@ -130,7 +130,7 @@ h1, h2 {
 }
 
 .hex-button{
-    animation : zoomout 2s;
+    animation : zoomout 1s;
     transition: ease-in;
 }
 @keyframes zoomout{
