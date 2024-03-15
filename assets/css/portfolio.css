@@ -1,18 +1,14 @@
 
-.conteneur-projets{
-  height: 31rem;
-}
 
 /* Popup */
 
 .popup {
-    width: 90%;
-    height: 30rem;
-    position: absolute;
-    top: 18rem;
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    top: 0;
     z-index: 99;
-    background-color: #00ADB5;
-    border-radius: 2rem;
     display: none;
+    backdrop-filter: grayscale(1) blur(5px)
   }
 
