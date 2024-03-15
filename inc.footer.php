@@ -1,8 +1,8 @@
 <footer class="h-25 text-tertiary bottom bg-transparent ">
     <div class="m-3 bg-transparent d-flex flex-row flex-wrap justify-content-around align-items-center">
       	<div class= "d-flex flex-row flex-wrap">
-			<a class="m-3 mx-auto footer-text text-info text-center text-decoration-none" href="#">Politique de confidentialité</a>
-			<a class="m-3 mx-auto footer-text text-info px-5 text-center text-decoration-none" href="#">Mentions Légales</a>
+			<a class="m-3 mx-auto footer-text text-light text-center text-decoration-none" href="#">Politique de confidentialité</a>
+			<a class="m-3 mx-auto footer-text text-light px-5 text-center text-decoration-none" href="#">Mentions Légales</a>
     	</div>
 
         <!-- Footer RS -->
