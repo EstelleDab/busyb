@@ -25,10 +25,12 @@
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
     <section id='ads '>
         <h2 class="px-5">Nous recherchons...</h2>
-        <div class="ad-container container  d-flex flex-row flex-wrap m-auto mt-5">
+        <div class="container mt-5 ">
+            <div class="card-deck">
             <?php 
                 getAds();
             ?>
+            </div>
         </div>
         </section><!--eof ads-->
     

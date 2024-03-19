@@ -71,10 +71,13 @@ $itsthefirst=true;
               else
               {   // affichage de toutes les entrées de la BDD
                   echo '
-                        <div class="ad-card col-md-6 d-flex flex-column border shadow rounded m-auto py-2 ">
-                            <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 ">'.$annonces['categorie'].'</span>
+                  <div class="col-md-4 pb-2">
+                        <div class="border shadow rounded card">
+                            <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 mt-1">'.$annonces['categorie'].'</span>
                             <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
-                                <p class="text-justify p-3">'.$annonces['texte'].'</p></div>';
+                                <p class="overflow-hidden text-justify p-3">'.$annonces['texte'].'</p>
+                        </div>
+                    </div>';
               }
           }
           // clôture de la requête

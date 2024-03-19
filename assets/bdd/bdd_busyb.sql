@@ -45,11 +45,33 @@ INSERT INTO `annonces` (`id`, `categorie`, `titre`, `texte`) VALUES
 '), 
 
 (2, 'stage', 'Développeur(euse) Web Front\-End', 'De formation Web, à la recherche d\'un stage de fin d\'étude vous connaissez toutes les étapes de la réalisation d’une interface riche. 
-Rattaché(e) à l’équipe technique, vous participerez aux projets de développement de sites internet / intranet ou d’applications web sur des CMS Open Source : Drupal, WordPress et Automne CMS.
-Vous serez très apprécié(e) pour votre maîtrise technique, votre curiosité, votre rigueur et votre autonomie.Si vous êtes passionné(e) par le développement web et que vous voulez relever des challenges techniques proposés par des projets complexes et ambitieux, alors ce stage est fait pour vous'),
+Rattaché(e) à l’équipe technique, vous participerez aux projets de développement de sites internet / intranet ou d’applications web sur des CMS Open Source : Drupal, WordPress et Automne CMS.'),
 
 (3, 'stage', 'Community Manager', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
-et avez une expérience en publication de contenu sous toutes leur forme');
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(4, 'CDI', 'Designer interfaces', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(5, 'stage', 'Développeur full stack', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(6, 'CDD', 'Project Manager', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(7, 'CDI', 'Data analyst', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(8, 'CDI', 'Graphiste', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(9, 'stage', 'Community Manager', 'Etudiant en formation DEUST ou BUT, ayant une bonne connaissance des principes clés du SEO et maitrisant les différentes plateformes de réseaux sociaux vous avez une bonne aisance rédactionnelle
+et avez une expérience en publication de contenu sous toutes leur forme'),
+
+(10, 'CDD', 'Développeur back-end', 'Nous cherchons un(e) concepteur/trice, rédacteur/rice web pour créer des contenus engageants. Votre plume et votre créativité contribueront à valoriser l’identité de nos clients et à engager leur audience.
+');
+
+
 --
 -- Table structure for table `avis`
 --
