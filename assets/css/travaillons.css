@@ -29,17 +29,17 @@
 }
   
 .ad-container {
-    height: 100vh;
-    width: 50vw;
+
  
    
 }
 .ad-card {
-height:45%;
-width:48%;
+
 
 }
-
+.container {
+    border: 2px solid red;
+}
 .ad-card p {
     overflow: scroll;
 }

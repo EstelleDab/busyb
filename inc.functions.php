@@ -21,10 +21,10 @@ $itsthefirst=true;
             }
             else {
 
-                $style_active=($itsthefirst) ? 'active' :'';
+            $style_active=($itsthefirst) ? 'active' :'';
                 
-               $status='';
-               echo '
+            $status='';
+            echo '
                 <div class="carousel-item pt-5 '.$style_active.'"> 
                 <div class="rating-'.$data['note'].' d-flex flex-row justify-content-center align-items-center">'; 
 
@@ -53,7 +53,6 @@ $itsthefirst=true;
      
             
             
-       
        function getAds() {
 
         global $bdd;
@@ -72,7 +71,7 @@ $itsthefirst=true;
               else
               {   // affichage de toutes les entrées de la BDD
                   echo '
-                        <div class="ad-card d-flex flex-column border shadow rounded m-auto py-2 ">
+                        <div class="ad-card col-md-6 d-flex flex-column border shadow rounded m-auto py-2 ">
                             <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 ">'.$annonces['categorie'].'</span>
                             <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
                                 <p class="text-justify p-3">'.$annonces['texte'].'</p></div>';
