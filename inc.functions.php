@@ -3,15 +3,14 @@
         **************************************************/
         // requête avec tri par date descendante
     function getReviews() {
-        global $bdd; 
+    global $bdd; 
     
     $requete = $bdd->query('SELECT texte, auteur, note FROM avis');
     $requete->execute();
 
-   
-        // boucle while pour afficher toutes les 
+        // boucle while pour afficher toutes les entrées
         
-$itsthefirst=true;
+            $itsthefirst=true; 
 
         while ($data = $requete->fetch()){
             if (!$data) // On teste si la réponse à la requête est vide.
@@ -58,7 +57,7 @@ $itsthefirst=true;
         global $bdd;
         /* incorporation de toutes les annonces depuis la BDD 
           **************************************************/
-          // requête avec tri par date descendante
+    
           $requete = $bdd->query('SELECT categorie, titre, texte FROM annonces ORDER BY categorie ASC');
           
           // boucle while pour afficher toutes les entrées

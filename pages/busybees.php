@@ -14,12 +14,7 @@
         <h2 class='text-secondary px-5'>Présentation de l'équipe</h2>
         <div class='d-flex flex-column justify-content-start'>
             <div class='px-5'>
-                <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Nisi lacus sed viverra tellus in hac. Aliquet enim tortor at auctor urna. Vitae purus faucibus ornare suspendisse sed nisi lacus sed viverra. 
-                    Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. Felis eget nunc lobortis mattis. 
-                    In hendrerit gravida rutrum quisque non. Nisi porta lorem mollis aliquam. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. 
-                    Imperdiet dui accumsan sit amet nulla facilisi morbi tempus iaculis. At risus viverra adipiscing at. Mattis aliquam faucibus purus in massa tempor nec. Ut morbi tincidunt augue interdum velit euismod. Sit amet dictum sit amet justo donec. Dictum non consectetur a erat nam at.
-                    Orci sagittis eu volutpat odio facilisis mauris. Mattis vulputate enim nulla aliquet porttitor lacus. Porta lorem mollis aliquam ut porttitor leo a diam. Interdum consectetur libero id faucibus nisl tincidunt. Accumsan tortor posuere ac ut. Metus aliquam eleifend mi in nulla. Risus quis varius quam quisque id. Sed sed risus pretium quam vulputate dignissim suspendisse in est. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin. Aliquet risus feugiat in ante metus. Mattis rhoncus urna neque viverra justo nec ultrices dui. Auctor elit sed vulputate mi sit amet mauris commodo. Sodales ut eu sem integer vitae justo. Tortor condimentum lacinia quis vel eros donec ac odio tempor. </p>
+                <p >Agence digitale jeune et dynamique, BusyB est spécialisée dans la création de solutions numériques innovantes. Notre équipe de passionnés est composée d’experts multidisciplinaires, chacun apportant son savoir-faire unique pour répondre aux besoins de nos clients. Nos collaborateurs sont des créatifs, des codeurs, des stratèges et des visionnaires. Ils maîtrisent les dernières technologies et sont constamment à l’affût des tendances du marché. Que ce soit pour la conception d’un site web, le développement d’une application mobile ou la mise en place d’une stratégie de marketing digital, nous mettons notre expertise au service de votre succès </p>
             </div>
            <div class='h-50 mb-4 mt-4 hexaline d-flex flex-row  '>
                 <div class='d-flex flex-column w-10'> 
@@ -34,10 +29,7 @@
                                             <h3>Amandine<h3>
                                         </div>
                                         <div class='carte__body'>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                                    labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                                                    Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                                                    Felis eget nunc lobortis mattis. 
+                                                <p class="px-4">Passionnée par le web et la tech, spécialisée dans le développement front-end. Son expertise en webdesign et en graphisme lui permettent de créer des interfaces utilisateur à la fois esthétiques et fonctionnelles. 
                                                 </p>
                                         </div>
                                     </div>
@@ -58,10 +50,7 @@
                                         <h3>Stella<h3>
                                      </div>
                                     <div class='carte__body'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                            labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                                            Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                                            Felis eget nunc lobortis mattis. 
+                                        <p>La plus jeune de la team est développeuse full-stack avec une forte appétence pour le front-end. En quete permanente d'optimisation, elle saura mener à bien votre projet avec efficacité et efficience! 
                                         </p>        
                                     </div>
                                 </div>
@@ -82,10 +71,7 @@
                                         <h3>Françis<h3>
                                     </div>
                                     <div class='carte__body'>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-                                            labore et dolore magna aliqua. Nisi lacus sed viverra tellus in hac. 
-                                            Nec dui nunc mattis enim. Sit amet consectetur adipiscing elit ut aliquam purus. 
-                                            Felis eget nunc lobortis mattis. 
+                                        <p>Francis est un passionné de dév, spécialisé dans le back-end. Accro aux défis il ne recule devant aucun problème complexe. Que ce soit pour la mise en place d’architectures robustes, la gestion des bases de données ou l’optimisation des requêtes, Francis excelle dans son domaine. 
                                         </p>        
                                     </div>
                                 </div>
