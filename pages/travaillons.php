@@ -25,10 +25,62 @@
     <h1 class='bg-dark text-primary px-5'>Travaillons ensemble</h1>
     <section id='ads '>
         <h2 class="px-5">Nous recherchons...</h2>
+
+<!-- section recherche -->
+        
+<section class="section-recherche">
+	
+	<div class="container bg-secondary-subtle rounded p-3">
+		<form method="POST" action="">
+			
+		 	<h2>Que recherchez vous ?</h2>
+
+			<div class="form-group form-check">	
+                
+                        <div class="form-check p-1">							
+                            <input class="form-check-input" type="checkbox" name="categorie[]" id="cdi" value="cdi">
+                            <label for="cdi" class="form-check-label">CDI</label>
+                        </div>
+
+                        <div class="form-check p-1">
+                            <input class="form-check-input" type="checkbox" name="categorie[]" id="cdd" value="cdd">
+                            <label for="cdd" class="form-check-label">CDD</label>
+                        </div>
+
+                        <div class="form-check p-1">
+                            <input class="form-check-input" type="checkbox" name="categorie[]" id="stage" value="stage">
+                            <label for="stage" class="form-check-label">Stage</label>
+                        </div>
+            </div>
+
+				<div class="p-1">
+					<input class="btn btn-primary" type="submit" value="Rechercher">
+				</div>
+			</div>	
+		
+		</form>
+	</div><!--eof container-->
+</section>
+
+<section>
+	<div>
+		
+
+		<?php
+			recherche();
+			?>
+
+		</fieldset>
+	</div>
+</section>
+<!-- eof section recherche -->
+        
+        
+        
         <div class="container mt-5 ">
             <div class="card-deck">
             <?php 
-                getAds();
+                // getAds();
             ?>
             </div>
         </div>
