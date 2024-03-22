@@ -51,70 +51,46 @@ $itsthefirst=true;
 
                     }
      
-            
-            
-       function getAds() {
-
-        global $bdd;
-        /* incorporation de toutes les annonces depuis la BDD 
-          **************************************************/
-          // requête avec tri par date descendante
-          $requete = $bdd->query('SELECT categorie, titre, texte FROM annonces ORDER BY categorie ASC');
-          
-          // boucle while pour afficher toutes les entrées
-          while ($annonces = $requete->fetch()){
-              if (!$annonces) // On teste si la réponse à la requête est vide.
-              {
-                  echo 'La BDD n\'existe pas ou est vide.';
-                  break;
-              }
-              else
-              {   // affichage de toutes les entrées de la BDD
-                  echo '
-                  <div class="col-md-4 pb-2">
-                        <div class="border shadow rounded card">
-                            <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 mt-1">'.$annonces['categorie'].'</span>
-                            <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
-                                <p class="overflow-hidden text-justify p-3">'.$annonces['texte'].'</p>
-                        </div>
-                    </div>';
-              }
-          }
-          // clôture de la requête
-          $requete->closeCursor();
-
-       }
 
 
-       // Fonction pour afficher les résultats d'une recherche
-	function recherche(){
+    // Fonction pour afficher les résultats d'une recherche
+	function getAds(){
+        ini_set('display_errors', 0);
 		global $bdd;
-			if ($_SERVER['REQUEST_METHOD'] === 'POST'
-				&& !empty($_POST['categorie'])){
-						$requete='SELECT * FROM annonces WHERE categorie="'.$_POST['categorie'].'"';
-			}
-			echo "<fieldset class='resultats'><legend class='form-legend resultats-titre'><strong> Résultats de vos recherches</strong></legend>";
+        // On vérifie si le formulaire a été soumis
+			if ($_SERVER['REQUEST_METHOD'] === 'POST' && !empty($_POST['categorie'])) {
+                // Si oui, on récupère les catégories sélectionnées
+                $categories = implode('","', $_POST['categorie']);
+                $requete = 'SELECT * FROM annonces WHERE categorie IN ("' . $categories . '")';
+            } else {
+                // Si non, on affiche toutes les annonces
+                $requete = 'SELECT * FROM annonces';
+            }
 
+            //On parcourt les valeurs de notre tableau de retours checkbox
 			$param_categ = ''; 
-				foreach($_POST['categorie'] as $valeur ) { //on parcourt les valeurs de notre tableau de retours checkbox.
+				foreach($_POST['categorie'] as $valeur ) { 
 				$param_categ .= 'categorie="'.$valeur.'" OR '; 
 				}
-				
+
+				// On retire le OR qui va s'ajouter à la fin de la boucle
 				if($param_categ != '' ) {
-				$requete .= ' AND ('.substr($param_categ, 0, -4).')'; // on retire le OR qui va s'ajouter à la fin de la boucle
+				$requete .= ' AND ('.substr($param_categ, 0, -4).')'; 
 				}
 
 			$requete=$bdd->prepare($requete);
 			$requete->execute();
 				
             while ($annonces = $requete->fetch()){
-                if (!$annonces) // On teste si la réponse à la requête est vide.
+                // On teste si la réponse à la requête est vide
+                if (!$annonces) 
                 {
                     echo 'La BDD n\'existe pas ou est vide.';
                     break;
                 }
                 else
-                {   // affichage de toutes les entrées de la BDD
+                // On affiche les annonces
+                {   
                     echo '
                     <div class="col-md-4 pb-2">
                           <div class="border shadow rounded card">
@@ -124,17 +100,8 @@ $itsthefirst=true;
                           </div>
                       </div>';
                 }
-							echo '<div class="conteneur-infos-maison">';
-				
-							foreach($annonces as $annonce) {
-								
-									foreach($annonce as $element) {
-										echo ''.$element.' </br>';
-									}	
-								
 							}
-							echo '</div></div>';
-							}
+        // On ferme la requête
 		$requete->closeCursor();	
 
 		};
