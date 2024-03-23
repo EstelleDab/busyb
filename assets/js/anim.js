@@ -9,8 +9,8 @@ $(document).ready(function () {
         let myurl=mylink.getAttribute("href");
         let myHexa=e.target.parentNode.getAttribute('id') || e.target.id || e.target.parentNode.parentNode.getAttribute('id') //on repère le 'li'cliqué
 
-        $("li").toggleClass('fade');
-        $('#'+myHexa).removeClass('fade');
+        $("li").toggleClass('fade'); //on ajoute à tous les hexagones la classe qui permettra d appliquer le fondu
+        $('#'+myHexa).removeClass('fade'); 
         $('.fade').fadeOut('slow');
         $('#'+myHexa).css({'transform': 'scale(30)', 'transition':'all 500ms ease-out'});
         $('a').fadeOut(500);

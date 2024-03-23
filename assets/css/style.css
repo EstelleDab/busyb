@@ -6,8 +6,6 @@
     box-sizing: border-box;
 }
 
-
-
   @font-face {
     font-family: "Consola Mono Book";
     src: 
@@ -36,24 +34,10 @@
     --tertiary-color: #EF566A;
     --black-color: #2B2B2B;
     --white-color: #fafafa;
-    --primary-font: "Consola Mono Bold", Arial, sans-serif!important;
+    --primary-font: "Consola Mono Book", Arial, sans-serif!important;
     --secondary-font: "Poppins", Arial, sans-serif;
     --tertiary-font: "Nonchalance Bold", sans-serif!important;
 }
-/*
-.text-primary {
-    color: var(--primary-color)!important;
-}
-.text-secondary{
-    color: var(--secondary-color)!important;
-}
-.text-tertiary {
-    color: var(--tertiary-color)!important;
-}
-.bg-dark{
-   background-color:#2B2B2B!important;
-}
-*/
 
 
 /*************COMMUNS*************/
@@ -102,11 +86,11 @@ h1, h2 {
     animation : zoomout 1s;
     transition: ease-in;
 }
+
 @keyframes zoomout{
     0% {
       transform: scale(30);
     }
-
     100% {
         transform: scale(1);
     }
@@ -176,9 +160,6 @@ h1, h2 {
     filter : drop-shadow(5px 5px 5px rgba(0,0,0,0.6));
 }
 
-.hex-gap{
-    column-gap: 5rem;
-}
 
 
 .hex:before,
@@ -194,7 +175,6 @@ h1, h2 {
 .hex.yellow:before {
     right: 100%;
     border-right: 4.5rem solid var(--primary-color); 
-
 }
 
 .hex.yellow:after {
@@ -234,6 +214,10 @@ h1, h2 {
     left: 100%;
     width: 0;
     border-left:  4.5rem solid var(--black-color);
+}
+
+.hex-gap{
+    column-gap: 5rem;
 }
 
 
