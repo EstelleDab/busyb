@@ -32,8 +32,8 @@
 }
   
 .card {
-    min-height: 500px;
-    height: 500px ;
+    min-height:  !important;
+    height: 500px !important;
     overflow:scroll;
 }
 
