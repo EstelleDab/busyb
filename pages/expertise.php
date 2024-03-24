@@ -35,107 +35,103 @@
         </div><!-- eof d-flex -->
 
         <div class="container-fluid p-5">
-            <div class="main-expertise parallax pb-5 rounded">
-                <div class="container-expertise p-5">
+            <div class="parallax pb-5 rounded">
+                <div class="main-expertise">
+                    <div class="container-expertise p-5">
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
-                        <h3>Conception de Sites Web</h3>
-                        <p>Nous créons des sites web modernes et intuitifs pour représenter votre entreprise de
-                            manière
-                            professionnelle.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Conception de Sites Web</h3>
+                            <p class="text-center text-wrap">Nous créons des sites web modernes et intuitifs pour
+                                représenter votre entreprise de
+                                manière
+                                professionnelle.</p>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-paint-brush fa-3x mb-3"></i><!--icone-->
-                        <h3>Conception Graphique</h3>
-                        <p>Notre équipe de graphistes talentueux donne vie à votre marque avec des visuels
-                            accrocheurs
-                            et un design unique.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-paint-brush fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Graphisme</h3>
+                            <p class="text-center text-wrap">Notre équipe de graphistes talentueux donne vie à votre
+                                marque avec des visuels
+                                accrocheurs
+                                et un design unique.</p>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-cogs fa-3x mb-3"></i><!--icone-->
-                        <h3>Développement Web</h3>
-                        <p>Des solutions web personnalisées et évolutives pour répondre aux besoins spécifiques de
-                            votre
-                            entreprise.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-cogs fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Code</h3>
+                            <p class="text-center text-wrap">Des solutions web personnalisées et évolutives pour
+                                répondre aux besoins spécifiques de
+                                votre
+                                entreprise.</p>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-search fa-3x mb-3"></i><!--icone-->
-                        <h3>Référencement SEO</h3>
-                        <p>Optimisation pour les moteurs de recherche afin d'augmenter la visibilité de votre site
-                            et
-                            attirer un trafic qualifié.</p>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-search fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">SEO</h3>
+                            <p class="text-center text-wrap">Optimisation pour les moteurs de recherche afin d'augmenter
+                                la visibilité de votre site
+                                et
+                                attirer un trafic qualifié.</p>
 
-                    </div>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-mobile fa-3x mb-3"></i><!--icone-->
-                        <h3>Applications Mobiles</h3>
-                        <p>Développement d'applications mobiles intuitives pour rester connecté avec vos clients où
-                            qu'ils soient.</p>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-mobile fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Applications Mobiles</h3>
+                            <p class="text-center text-wrap">Développement d'applications mobiles intuitives pour rester
+                                connecté avec vos clients où
+                                qu'ils soient.</p>
 
-                    </div>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-chart-bar fa-3x mb-3"></i><!--icone-->
-                        <h3>Analyse de Données</h3>
-                        <p>Utilisation de données pour optimiser les performances en ligne et prendre des décisions
-                            éclairées.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-chart-bar fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Analyse de Données</h3>
+                            <p class="text-center text-wrap">Utilisation de données pour optimiser les performances en
+                                ligne et prendre des décisions
+                                éclairées.</p>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-code fa-3x mb-3"></i><!--icone-->
-                        <h3>UI & UX Design</h3>
-                        <p>Création d'interfaces utilisateur attrayantes et réactives avec les dernières
-                            technologies frontend.</p>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-code fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">UI & UX Design</h3>
+                            <p class="text-center text-wrap">Création d'interfaces utilisateur attrayantes et réactives
+                                avec les dernières
+                                technologies frontend.</p>
 
-                    </div>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-database fa-3x mb-3"></i><!--icone-->
-                        <h3>Gestion de Bases de Données</h3>
-                        <p>Conception et gestion efficace de bases de données pour assurer la disponibilité et la
-                            sécurité des données.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-database fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Gestion de BDD</h3>
+                            <p class="text-center text-wrap">Conception et gestion efficace de bases de données pour
+                                assurer la disponibilité et la
+                                sécurité des données.</p>
+                        </div>
 
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-users fa-3x mb-3"></i><!--icone-->
-                        <h3>Marketing Digital</h3>
-                        <p>Stratégies de marketing numérique pour maximiser la visibilité en ligne et attirer un
-                            public ciblé.</p>
-                    </div>
-
-
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
-                        <h3>Conception de Sites Web</h3>
-                        <p>Nous créons des sites web modernes et intuitifs pour représenter votre entreprise de
-                            manière
-                            professionnelle.</p>
-                    </div>
-
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-paint-brush fa-3x mb-3"></i><!--icone-->
-                        <h3>Conception Graphique</h3>
-                        <p>Notre équipe de graphistes talentueux donne vie à votre marque avec des visuels
-                            accrocheurs
-                            et un design unique.</p>
-                    </div>
-
-                    <div class="text-center text-wrap p-4">
-                        <i class="fa-solid fa-cogs fa-3x mb-3"></i><!--icone-->
-                        <h3>Développement Web</h3>
-                        <p>Des solutions web personnalisées et évolutives pour répondre aux besoins spécifiques de
-                            votre
-                            entreprise.</p>
-                    </div>
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-users fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Marketing Digital</h3>
+                            <p class="text-center text-wrap">Stratégies de marketing numérique pour maximiser la
+                                visibilité en ligne et attirer un
+                                public ciblé.</p>
+                        </div>
 
 
-                </div><!-- eof container-expertise -->
-            </div><!-- eof main-expertise -->
+                        <div class="text-center text-wrap p-4">
+                            <i class="text-center text-wrap fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
+                            <h3 class="text-center text-wrap">Conception de Sites Web</h3>
+                            <p class="text-center text-wrap">Nous créons des sites web modernes et intuitifs pour
+                                représenter votre entreprise de
+                                manière
+                                professionnelle.</p>
+                        </div>
+
+
+                    </div><!-- eof container-expertise -->
+                </div><!-- eof main-expertise -->
+            </div><!-- eof parallax -->
         </div><!-- eof container-fluid -->
 
 

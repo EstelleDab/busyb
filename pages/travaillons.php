@@ -29,53 +29,37 @@
 
 
             <!-- section recherche -->
-            <section class="m-5 d-flex justify-content-center p-2">
-
-                <div class="bg-secondary-subtle rounded p-3">
-                    <h3>Que recherchez vous ?</h3>
-                    <form class="col-3" method="POST" action="">
-
-                        <div class="form-group form-check p-2">
-
-                            <div class="form-check p-1">
-                                <input class="form-check-input" type="checkbox" name="categorie[]" id="cdi" value="cdi">
-                                <label for="cdi" class="form-check-label">CDI</label>
+            <section class="m-5">
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 bg-secondary-subtle rounded p-3">
+                        <h3>Que recherchez-vous ?</h3>
+                        <form method="POST" action="">
+                            <div class="form-group form-check p-2">
+                                <div class="form-check p-1">
+                                    <input class="form-check-input" type="checkbox" name="categorie[]" id="cdi" value="cdi">
+                                    <label for="cdi" class="form-check-label">CDI</label>
+                                </div>
+                                <div class="form-check p-1">
+                                    <input class="form-check-input" type="checkbox" name="categorie[]" id="cdd" value="cdd">
+                                    <label for="cdd" class="form-check-label">CDD</label>
+                                </div>
+                                <div class="form-check p-1">
+                                    <input class="form-check-input" type="checkbox" name="categorie[]" id="stage" value="stage">
+                                    <label for="stage" class="form-check-label">Stage</label>
+                                </div>
                             </div>
-
-                            <div class="form-check p-1">
-                                <input class="form-check-input" type="checkbox" name="categorie[]" id="cdd" value="cdd">
-                                <label for="cdd" class="form-check-label">CDD</label>
+                            <div class="p-1">
+                                <input class="btn btn-secondary" type="submit" value="Rechercher">
                             </div>
-
-                            <div class="form-check p-1">
-                                <input class="form-check-input" type="checkbox" name="categorie[]" id="stage"
-                                    value="stage">
-                                <label for="stage" class="form-check-label">Stage</label>
-                            </div>
-                        </div>
-
-                        <div class="p-1">
-                            <input class="btn btn-primary" type="submit" value="Rechercher">
-                        </div>
+                        </form>
+                    </div>
+                    <div class="col-lg-8 p-3">
+                        <h3 class="pb-2">Pourquoi nous rejoindre ?</h3>
+                        <p>Bienvenue chez Busy B, là où les idées prennent vie et la créativité prospère ! En tant qu'agence de communication digitale dynamique, nous sommes constamment à la recherche de nouveaux talents pour rejoindre notre équipe passionnée. Chez Busy B, nous croyons fermement en la puissance de l'innovation et de la collaboration pour créer des expériences numériques exceptionnelles qui captivent et inspirent. Si vous êtes un esprit créatif, ambitieux et désireux de repousser les limites du possible dans le monde numérique, alors vous êtes au bon endroit. Découvrez nos opportunités de carrière et rejoignez-nous dans notre mission de façonner l'avenir de la communication digitale.</p>
+                    </div>
                 </div>
-
-                </form>
-                </div>
-
-                <div class="col-8 p-3">
-                    <h3 class="pb-2">Pourquoi nous rejoindre ?</h3>
-                    <p>Bienvenue chez Busy B, là où les idées prennent vie et la créativité prospère ! En tant qu'agence
-                        de communication digitale dynamique, nous sommes constamment à la recherche de nouveaux talents
-                        pour rejoindre notre équipe passionnée. Chez Busy B, nous croyons fermement en la puissance de
-                        l'innovation et de la collaboration pour créer des expériences numériques exceptionnelles qui
-                        captivent et inspirent. Si vous êtes un esprit créatif, ambitieux et désireux de repousser les
-                        limites du possible dans le monde numérique, alors vous êtes au bon endroit. Découvrez nos
-                        opportunités de carrière et rejoignez-nous dans notre mission de façonner l'avenir de la
-                        communication digitale.</p>
-                </div>
-
-
-            </section><!--eof section recherche-->
+            </section>
+            
 
             <div class="container mt-5 ">
                 <div class="card-deck">

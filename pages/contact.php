@@ -62,7 +62,7 @@
                         </div>
 
                         <div class="col-md-12">
-                            <button type="submit" name="submit" class="btn btn-primary">
+                            <button type="submit" name="submit" class="btn btn-secondary">
                                 Envoyer
                             </button>
                         </div>

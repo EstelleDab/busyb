@@ -11,14 +11,13 @@
 
 .main-expertise {
   display: flex;
-  --s: 20rem; /* size  */
-  --m: .5rem; /* margin */
+  --s: 21rem; 
+  --m: .5rem;
   --f: calc(1.732 * var(--s) + 4 * var(--m) - .5rem);
 }
 
 .container-expertise {
   font-size: 0;
-  /*disable white space between inline block element */
 }
 
 .container-expertise div {
@@ -40,3 +39,4 @@
   shape-outside: repeating-linear-gradient(#0000 0 calc(var(--f) - 3px),
       #000 0 var(--f));
 }
+
