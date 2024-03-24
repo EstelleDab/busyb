@@ -34,10 +34,10 @@
             </div><!-- eof px-5 -->
         </div><!-- eof d-flex -->
 
-        <div class="container-fluid p-5">
-            <div class="parallax pb-5 rounded">
-                <div class="main-expertise">
-                    <div class="container-expertise p-5">
+        <div class="d-flex p-5">
+            <div class="parallax p-5 rounded">
+                <div class="main-expertise pb-5">
+                    <div class="container-expertise">
 
                         <div class="text-center text-wrap p-4">
                             <i class="text-center text-wrap fa-solid fa-desktop fa-3x mb-3"></i><!--icone-->
