@@ -99,6 +99,8 @@ p{
     transition: ease-in;
 }
 
+/*animation logo-abeille qui se pose dans le header*/
+
 @keyframes zoomout{
     0% {
       transform: scale(30);
@@ -161,10 +163,15 @@ p{
 
 
 /*le menu hexagone*/
+.conteneur {
+    width: 100%;
+}
 
-@media (max-width:30rem) {
-.menu {
-width: 100%;
+@media (max-width:64rem) {
+
+.conteneur {
+width: 80%;
+background-color: #EF566A;
 }
 
 }
