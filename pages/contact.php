@@ -49,7 +49,7 @@
                             <label for="phone" class="form-label">
                                 Numéro
                             </label>
-                            <input type="text" class="form-control border-0" id="phone" name="phone">
+                            <input type="text" class="form-control border-0" id="phone" name="phone" placeholder="06 45 23 87 28">
                         </div>
                     </div>
 
