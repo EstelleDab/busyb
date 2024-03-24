@@ -1,11 +1,4 @@
 
-.mt-5{
-    margin-top: 15rem!important;
-}
-.mb-5 {
-    margin-bottom: 15rem!important;
-}
-
 p {
     font-family: var(--secondary-font);
     font-size: 1.25rem;
@@ -57,11 +50,12 @@ p {
 }
 
 .carte__content {
-   text-align:center;
+    
     width:70%;
     height:100%; 
 }
 .carte__content p {
+    text-align:center !important;
     font-size:1rem;
 }
 
@@ -71,3 +65,72 @@ p {
     text-align: center;
 }
 
+.busybees {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.mb {
+    margin-bottom:15rem;
+}
+
+.mt {
+    margin-top: 15rem;
+}
+
+@media (max-width:64rem) {
+
+.busybees {
+    display: flex;
+    flex-direction : column;
+    justify-content: flex-start;
+}
+
+.mb {
+    margin-bottom:2rem;
+    margin-top:24rem;
+}
+
+.mt {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.carte {
+    width: 50%;
+    margin: auto;
+   margin-top: 3rem;
+}
+
+.deco {
+    display: none;
+}
+}
+
+@media (max-width:38rem) {
+
+    .busybees {
+        display: flex;
+        flex-direction : column;
+        justify-content: flex-start;
+    }
+    
+    .mb {
+        margin-bottom:2rem;
+        margin-top:2rem;
+    }
+    
+    .mt {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .carte {
+        width: 100%;
+    }
+    
+    .deco {
+        display: none;
+    }
+}

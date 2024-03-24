@@ -9,7 +9,8 @@
 	<h1 class='visually-hidden'>Agence Digitale Busy B</h1> <!--visible par les robots-->
 	<h2 class='visually-hidden'>Une rûche d'idées!</h2>
 
-	<nav class="container vh-100 d-flex flex-row justify-content-center align-items-center">
+
+	<nav class="menu vh-100 d-flex flex-row justify-content-center align-items-center">
 		<ul id="hexalist"class='m-0 p-10 h-100' >
 			<div class="hex-gap h-100 d-flex flex-row justify-content-center align-items-center">
 				<div class=" d-flex flex-column  align-items-center">

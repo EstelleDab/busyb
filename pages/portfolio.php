@@ -21,7 +21,7 @@
     <main>
     <div class="bg-light pb-5">
         
-        <h1 class="bg-secondary text-primary px-5">NOS RÉALISATIONS</h1>
+        <h1 class="bg-secondary text-primary px-5">Nos Réalisations</h1>
         <h2 class="text-secondary px-5 pt-1">Quelques exemples de notre travail hautement qualitatif :</h2>
     </div>
 

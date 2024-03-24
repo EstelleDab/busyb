@@ -39,8 +39,8 @@ function getReviews() {
                 }
                     
                 echo'  </div> 
-                    <p class="review d-block pt-1 m-auto text-center text-dark">'.$data['texte'].'</p>
-                    <p  class="review text-center pt-2 m-auto text-justify text-primary">'.$data['auteur'].'</p>
+                    <p class="review d-block pt-1 m-auto text-center text-dark font-weight-bold">'.$data['texte'].'</p>
+                    <p  class="review text-center pt-2 m-auto text-justify text-dark ">'.$data['auteur'].'</p>
                     </div> ';
                 $itsthefirst=false;
            }
@@ -93,8 +93,8 @@ function getReviews() {
                     echo '
                     <div class=" col-md-4 pb-2">
                           <div class="card border shadow rounded ">
-                              <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 mt-1">'.$annonces['categorie'].'</span>
-                              <h2 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
+                              <span class="bg-info text-light text-center border rounded-pill w-25 mx-2 mt-1 mb-4">'.$annonces['categorie'].'</span>
+                              <h4 class="text-center text-secondary ">'.$annonces['titre'].'</h2>
                                   <p class="ads overflow-scroll text-center-justify p-3">'.$annonces['texte'].'</p>
                           </div>
                       </div>';

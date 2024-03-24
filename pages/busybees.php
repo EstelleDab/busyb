@@ -16,9 +16,9 @@
             <div class='px-5'>
                 <p >Agence digitale jeune et dynamique, BusyB est spécialisée dans la création de solutions numériques innovantes. Notre équipe de passionnés est composée d’experts multidisciplinaires, chacun apportant son savoir-faire unique pour répondre aux besoins de nos clients. Nos collaborateurs sont des créatifs, des codeurs, des stratèges et des visionnaires. Ils maîtrisent les dernières technologies et sont constamment à l’affût des tendances du marché. Que ce soit pour la conception d’un site web, le développement d’une application mobile ou la mise en place d’une stratégie de marketing digital, nous mettons notre expertise au service de votre succès </p>
             </div>
-           <div class='h-50 mb-4 mt-4 hexaline d-flex flex-row  '>
-                <div class='d-flex flex-column w-10'> 
-                    <div class='carte'>
+           <div class='busybees h-50 mb-4 mt-4 hexaline'>
+                <div  class='d-flex flex-column w-10'> 
+                    <div class='carte mb'>
                         <div  id='js-ama' class='carte__inner'>
                                 <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
                                     <img src="../assets/images/busybees/amanda.jpg" alt="photo-amandine">
@@ -38,8 +38,8 @@
                     </div>
                 </div>
              
-                <div class='d-flex flex-column w-10 mt-9'>
-                    <div class='carte mt-5'>
+                <div  class='d-flex flex-column w-10'>
+                    <div class='carte mt'>
                         <div id='js-ste' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
                                 <img src="../assets/images/busybees/estelle.jpeg" alt="photo-stella">
@@ -59,8 +59,8 @@
                     </div>
                 </div>
             
-                <div class='d-flex flex-column w-10 mb-5'>
-                    <div class='carte mb-5'>
+                <div  class='d-flex flex-column w-10 '>
+                    <div class='carte mb'>
                         <div id='js-fra' class='carte__inner'>
                             <div class="carte__face carte__face--front d-flex align-items-center justify-content-center">
                                 <img src="../assets/images/busybees/fra.png" alt="photo-francis">
@@ -81,8 +81,8 @@
                 </div>
             
 
-            <div class='d-flex flex-column mt-9 w-10'>
-                <div class='carte mt-5 bg-info'>
+            <div class='d-flex flex-column  w-10'>
+                <div class='carte mt bg-info deco'>
                         <div id='js-fra' class='carte__inner'>
                             <div class="pink carte__face carte__face--front d-flex align-items-center justify-content-center">
                             </div>
