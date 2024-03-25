@@ -19,7 +19,12 @@
             <div class="row">
 
                 <!-- Formulaire de contact -->
-                <form class="col-md-6" id="contact-form" method="post" action="contact-form.php" role="form">
+
+                <!--Formulaire fonctionnel sur serveur local -->
+                <!-- <form class="col-md-6" id="contact-form" method="post" action="contact-form.php" role="form"> -->
+
+                <!--Formulaire hébergé, non fonctionnel -->
+                <form class="col-md-6" id="contact-form" method="post" action="sent.php" role="form">
                     <div class="row">
                         <div class="col-md-6">
                             <label for="fname" class="form-label">
